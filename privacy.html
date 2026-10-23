@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy – Squish Image Compressor</title>
+  <meta name="description" content="Privacy policy for Squish, the free in-browser image compressor. Your images are processed locally and never uploaded.">
+  <link rel="canonical" href="https://__SITE_URL__/privacy">
+  <meta name="robots" content="noindex, follow">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/config.js"></script>
+  <script src="/monetize.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/" aria-label="Squish home"><span class="logo">S</span> Squish</a>
+    <nav class="nav" aria-label="Main">
+      <a class="btn btn-sm" href="/">← Back to tool</a>
+      <button class="btn icon-btn" onclick="toggleTheme()" aria-label="Toggle theme">◐</button>
+    </nav>
+  </div>
+</header>
+
+<section class="content container">
+  <h1>Privacy Policy</h1>
+  <p>Last updated: <span data-year></span></p>
+
+  <h2>Your images never leave your device</h2>
+  <p>Squish compresses, resizes and converts images entirely inside your web browser using the HTML5 Canvas API. When you add an image, it is read into your browser's memory, processed there, and offered back to you as a download. <strong>No image, filename or metadata is ever transmitted to our servers or to any third party.</strong> We have no server-side component that could receive your files. Once you close or reload the page, the images are gone from memory.</p>
+  <p>Because images are re-encoded through the canvas, embedded EXIF metadata (such as GPS location, camera model and timestamps) is removed from the compressed output. We consider this a privacy feature, but note that it means the metadata is not preserved.</p>
+
+  <h2>Data stored in your browser</h2>
+  <p>We use <code>localStorage</code> to remember your preferences (quality, output format, resize option, theme and similar settings) and, if you purchase Squish Pro, your license status. This data stays on your device and can be cleared at any time from your browser settings.</p>
+
+  <h2>Analytics</h2>
+  <p>If enabled, we use Google Analytics 4 to understand how the tool is used (page views, which buttons are clicked, approximate region). Analytics never receives your images or filenames. Google may set cookies or use similar technologies for this purpose. You can opt out with the <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener" target="_blank">Google Analytics opt-out add-on</a> or by blocking analytics scripts.</p>
+
+  <h2>Advertising</h2>
+  <p>Squish may display advertisements served by Google AdSense to keep the tool free. Google and its partners may use cookies (including the DoubleClick cookie) to serve ads based on your prior visits to this and other websites. You can opt out of personalized advertising at <a href="https://www.google.com/settings/ads" rel="noopener" target="_blank">Google Ads Settings</a> or via <a href="https://www.aboutads.info/choices/" rel="noopener" target="_blank">aboutads.info</a>. Visitors in the EEA and UK will be asked for consent where required.</p>
+
+  <h2>Payments</h2>
+  <p>Squish Pro purchases are handled by a third-party payment processor (such as Lemon Squeezy, Gumroad or Stripe). We do not see or store your card details. The processor's own privacy policy applies to the checkout.</p>
+
+  <h2>Third-party libraries</h2>
+  <p>The optional "Download ZIP" feature loads the open-source JSZip library from the jsDelivr CDN only when you use it. The CDN may log standard request data (IP address, user agent). No image data is sent to the CDN.</p>
+
+  <h2>Children</h2>
+  <p>Squish is not directed at children under 13 and we do not knowingly collect personal information from them.</p>
+
+  <h2>Changes</h2>
+  <p>We may update this policy from time to time. Changes will be posted on this page with an updated date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about privacy? Contact us at <a href="mailto:hello@__SITE_URL__">hello@__SITE_URL__</a>.</p>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div>© <span data-year></span> Squish · Free online image compressor</div>
+    <div><a href="/privacy">Privacy</a> · <a href="/terms">Terms</a> · Made with ❤️</div>
+  </div>
+</footer>
+</body>
+</html>
