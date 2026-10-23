@@ -2,7 +2,7 @@
 
 Private, in-browser image compressor. Compress, resize and convert JPG, PNG and WebP images without uploading anything: every byte is processed with the Canvas API on the user's device.
 
-**Live:** https://__SITE_URL__/ (placeholder – replace after deploy)
+**Live:** https://squish-tool.vercel.app/ (placeholder – replace after deploy)
 
 ## Features
 
@@ -50,7 +50,7 @@ Then open the printed URL (usually http://localhost:3000). No build step.
 Deploy the folder as a static site on Vercel (`vercel --prod`). After the first deploy, replace the placeholder URL everywhere:
 
 ```bash
-sed -i 's/__SITE_URL__/squish.example.com/g' index.html privacy.html terms.html robots.txt sitemap.xml config.js README.md
+sed -i 's/squish-tool.vercel.app/squish.example.com/g' index.html privacy.html terms.html robots.txt sitemap.xml config.js README.md
 ```
 
 ## Monetization setup
