@@ -18,6 +18,9 @@
   <meta name="twitter:image" content="https://squish-tool.vercel.app/favicon.svg">
   <meta name="theme-color" content="#0b0f17">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles.css">
   <script type="application/ld+json">
   {
@@ -85,8 +88,12 @@
 
 <header class="site-header">
   <div class="container">
-    <a class="brand" href="/" aria-label="Squish home"><span class="logo">S</span> Squish</a>
+    <a class="brand" href="/" aria-label="Squish home">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-text"><span class="brand-name">Squish</span><span class="brand-desc">Image compressor</span></span>
+    </a>
     <nav class="nav" aria-label="Main">
+      <span class="brand-by">by <b>Be Management</b></span>
       <button class="btn btn-primary btn-sm" onclick="openPro('nav')">Pro</button>
       <button class="btn icon-btn" onclick="toggleTheme()" aria-label="Toggle theme">◐</button>
     </nav>
@@ -94,14 +101,15 @@
 </header>
 
 <section class="hero container">
-  <h1>Compress Images Online – Free, Private, No Upload</h1>
-  <p>Shrink JPG, PNG and WebP files by up to 80% without visible quality loss. Squish runs 100% in your browser, so your photos never leave your device.</p>
+  <span class="eyebrow"><span class="dot" aria-hidden="true"></span>Be Management Tools · Images</span>
+  <h1>Compress Images Online</h1>
+  <p class="tagline">Drop your JPG, PNG or WebP files and get them up to 90% smaller without visible quality loss. Everything runs in your browser, nothing is uploaded.</p>
   <div class="badges">
-    <span class="badge">100% free</span>
-    <span class="badge">No sign-up</span>
-    <span class="badge">Works in your browser</span>
-    <span class="badge">No watermark</span>
-    <span class="badge">Strips EXIF metadata</span>
+  <span class="badge">100% free</span>
+  <span class="badge">No sign-up</span>
+  <span class="badge">Works in your browser</span>
+  <span class="badge">No watermark</span>
+  <span class="badge">Strips EXIF metadata</span>
   </div>
 </section>
 
@@ -318,9 +326,29 @@
 </section>
 
 <footer class="site-footer">
-  <div class="container">
-    <div>© <span data-year></span> Squish · Free online image compressor</div>
-    <div><a href="/privacy">Privacy</a> · <a href="/terms">Terms</a> · Made with ❤️</div>
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <span class="brand-mark lg" aria-hidden="true"></span>
+      <div>
+        <strong>Be Management Tools</strong>
+        <p>A collection of free, private tools that run entirely in your browser. Squish is the image compressor of the family, built and maintained by Be Management.</p>
+      </div>
+    </div>
+    <div class="footer-tools">
+      <strong>More free tools</strong>
+      <ul>
+        <li><a href="https://quickinvoice-tool.vercel.app">QuickInvoice · Invoices</a></li>
+        <li><a href="https://ratecalc-tool.vercel.app">RateCalc · Freelance rates</a></li>
+        <li><a href="https://qrforge-tool.vercel.app">QRForge · QR codes</a></li>
+        <li><a href="https://squish-tool.vercel.app" class="current">Squish · Image compressor</a></li>
+        <li><a href="https://growthcalc-tool.vercel.app">GrowthCalc · Compound interest</a></li>
+        <li><a href="https://subnetkit-tool.vercel.app">SubnetKit · IP subnets</a></li>
+      </ul>
+    </div>
+    <div class="footer-meta">
+      <span>© <span data-year></span> Be Management · Squish. Images never leave your device.</span>
+      <span><a href="/privacy">Privacy</a> · <a href="/terms">Terms</a></span>
+    </div>
   </div>
 </footer>
 

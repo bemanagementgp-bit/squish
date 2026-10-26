@@ -2,12 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="theme-color" content="#f97316">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Privacy Policy – Squish Image Compressor</title>
   <meta name="description" content="Privacy policy for Squish, the free in-browser image compressor. Your images are processed locally and never uploaded.">
   <link rel="canonical" href="https://squish-tool.vercel.app/privacy">
   <meta name="robots" content="noindex, follow">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles.css">
   <script src="/config.js"></script>
   <script src="/monetize.js"></script>
@@ -15,8 +19,12 @@
 <body>
 <header class="site-header">
   <div class="container">
-    <a class="brand" href="/" aria-label="Squish home"><span class="logo">S</span> Squish</a>
+    <a class="brand" href="/" aria-label="Squish home">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-text"><span class="brand-name">Squish</span><span class="brand-desc">Image compressor</span></span>
+    </a>
     <nav class="nav" aria-label="Main">
+      <span class="brand-by">by <b>Be Management</b></span>
       <a class="btn btn-sm" href="/">← Back to tool</a>
       <button class="btn icon-btn" onclick="toggleTheme()" aria-label="Toggle theme">◐</button>
     </nav>
@@ -57,9 +65,29 @@
 </section>
 
 <footer class="site-footer">
-  <div class="container">
-    <div>© <span data-year></span> Squish · Free online image compressor</div>
-    <div><a href="/privacy">Privacy</a> · <a href="/terms">Terms</a> · Made with ❤️</div>
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <span class="brand-mark lg" aria-hidden="true"></span>
+      <div>
+        <strong>Be Management Tools</strong>
+        <p>A collection of free, private tools that run entirely in your browser. Squish is the image compressor of the family, built and maintained by Be Management.</p>
+      </div>
+    </div>
+    <div class="footer-tools">
+      <strong>More free tools</strong>
+      <ul>
+        <li><a href="https://quickinvoice-tool.vercel.app">QuickInvoice · Invoices</a></li>
+        <li><a href="https://ratecalc-tool.vercel.app">RateCalc · Freelance rates</a></li>
+        <li><a href="https://qrforge-tool.vercel.app">QRForge · QR codes</a></li>
+        <li><a href="https://squish-tool.vercel.app" class="current">Squish · Image compressor</a></li>
+        <li><a href="https://growthcalc-tool.vercel.app">GrowthCalc · Compound interest</a></li>
+        <li><a href="https://subnetkit-tool.vercel.app">SubnetKit · IP subnets</a></li>
+      </ul>
+    </div>
+    <div class="footer-meta">
+      <span>© <span data-year></span> Be Management · Squish. Images never leave your device.</span>
+      <span><a href="/privacy">Privacy</a> · <a href="/terms">Terms</a></span>
+    </div>
   </div>
 </footer>
 </body>
