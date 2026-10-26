@@ -132,6 +132,30 @@ td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
 .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 .hidden{display:none!important}
 @media print{.site-header,.sidebar,.site-footer,.content,.no-print,.toast,.modal,.hero,.ad-slot{display:none!important}body{background:#fff;color:#000}}
+/* lead capture */
+.lead-card h3{margin-bottom:6px;font-size:1.05rem}
+.lead-form{display:flex;gap:8px;margin-top:10px}
+.lead-form input{flex:1;min-width:0}
+.lead-form .btn{padding:10px 14px}
+.hint.tiny{font-size:.72rem;margin-top:8px}
+.pro-status{margin-top:12px}
+/* long-tail "popular uses" + related pages */
+.uses{margin:36px auto}
+.uses h2{font-size:1.25rem;margin:0 0 12px}
+.uses-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px;list-style:none;padding:0;margin:0}
+.uses-grid a{display:block;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--text);font-weight:600;font-size:.92rem;transition:.15s}
+.uses-grid a:hover{border-color:var(--accent);text-decoration:none;transform:translateY(-1px)}
+.uses-grid a.current{border-color:var(--accent);color:var(--accent)}
+.breadcrumb{font-size:.85rem;color:var(--muted);margin:0 0 12px}
+.breadcrumb a{color:var(--muted)}
+.content .back-guide{margin-top:28px;padding:16px 18px;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+/* ===== end shared base ===== */
+
+
+
+
+
+
 
 
 /* ===== Squish – app specific ===== */

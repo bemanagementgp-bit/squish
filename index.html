@@ -235,10 +235,36 @@
         </ul>
         <button class="btn btn-primary btn-block" onclick="openPro('sidebar')">Get Pro – <span data-pro-price>$9</span> one-time</button>
       </div>
+      <div class="card lead-card" id="leadCard" hidden>
+        <h3>Faster sites, lighter images</h3>
+        <p class="hint">Web performance tips, image format guides and new free tools. No spam.</p>
+        <form class="lead-form" onsubmit="return subscribeNewsletter(event)">
+          <input type="email" name="email" required placeholder="you@email.com" aria-label="Email address" autocomplete="email">
+          <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none" aria-hidden="true">
+          <button class="btn btn-primary" type="submit">Subscribe</button>
+        </form>
+        <p class="hint tiny">No spam. Unsubscribe anytime.</p>
+      </div>
       <div class="ad-slot" data-slot="sidebar-2"></div>
     </aside>
   </div>
 </main>
+
+<!-- uses:start -->
+<section class="uses container" id="popular-uses" aria-labelledby="usesTitle">
+  <h2 id="usesTitle">Popular ways to use Squish</h2>
+  <ul class="uses-grid">
+      <li><a href="/compress-images-for-website">Compress Images for Your Website</a></li>
+      <li><a href="/compress-image-for-email-attachment">Compress an Image for Email</a></li>
+      <li><a href="/compress-photos-for-instagram">Compress Photos for Instagram Without Losing Quality</a></li>
+      <li><a href="/reduce-image-size-for-wordpress">Reduce Image Size for WordPress</a></li>
+      <li><a href="/compress-png-online">Compress PNG Online</a></li>
+      <li><a href="/convert-png-to-webp">Convert PNG to WebP</a></li>
+      <li><a href="/compress-images-for-shopify">Compress Images for Shopify</a></li>
+      <li><a href="/resize-image-for-linkedin-profile">Resize an Image for Your LinkedIn Profile Photo</a></li>
+  </ul>
+</section>
+<!-- uses:end -->
 
 <section class="content container">
   <div class="features">

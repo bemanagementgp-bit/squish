@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://squish-tool.vercel.app/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://squish-tool.vercel.app/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://squish-tool.vercel.app/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://squish-tool.vercel.app/</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://squish-tool.vercel.app/compress-images-for-website</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://squish-tool.vercel.app/compress-image-for-email-attachment</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://squish-tool.vercel.app/compress-photos-for-instagram</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://squish-tool.vercel.app/reduce-image-size-for-wordpress</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://squish-tool.vercel.app/compress-png-online</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://squish-tool.vercel.app/convert-png-to-webp</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://squish-tool.vercel.app/compress-images-for-shopify</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://squish-tool.vercel.app/resize-image-for-linkedin-profile</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://squish-tool.vercel.app/privacy</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://squish-tool.vercel.app/terms</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
 </urlset>

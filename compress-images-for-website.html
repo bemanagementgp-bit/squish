@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Compress Images for Your Website – Free, No Upload | Squish</title>
+  <meta name="description" content="Compress images for your website in the browser: smaller JPG, PNG and WebP files for faster LCP and better Core Web Vitals. Free, no upload, no sign-up.">
+  <link rel="canonical" href="https://squish-tool.vercel.app/compress-images-for-website">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://squish-tool.vercel.app/compress-images-for-website">
+  <meta property="og:title" content="Compress Images for Your Website – Free, No Upload | Squish">
+  <meta property="og:description" content="Compress images for your website in the browser: smaller JPG, PNG and WebP files for faster LCP and better Core Web Vitals. Free, no upload, no sign-up.">
+  <meta property="og:image" content="https://squish-tool.vercel.app/favicon.svg">
+  <meta property="og:site_name" content="Squish">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Compress Images for Your Website – Free, No Upload | Squish">
+  <meta name="twitter:description" content="Compress images for your website in the browser: smaller JPG, PNG and WebP files for faster LCP and better Core Web Vitals. Free, no upload, no sign-up.">
+  <meta name="twitter:image" content="https://squish-tool.vercel.app/favicon.svg">
+  <meta name="theme-color" content="#0b0f17">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/config.js"></script>
+  <script src="/monetize.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Compress Images for Your Website – Free, No Upload | Squish","description":"Compress images for your website in the browser: smaller JPG, PNG and WebP files for faster LCP and better Core Web Vitals. Free, no upload, no sign-up.","url":"https://squish-tool.vercel.app/compress-images-for-website","isPartOf":{"@type":"WebSite","name":"Squish","url":"https://squish-tool.vercel.app/"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Squish","item":"https://squish-tool.vercel.app/"},{"@type":"ListItem","position":2,"name":"Compress Images for Your Website","item":"https://squish-tool.vercel.app/compress-images-for-website"}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What image size is best for a website?","acceptedAnswer":{"@type":"Answer","text":"Match the pixel width to the largest size the image is displayed at, usually 1920 px for full-width banners and 1200–1600 px for article images, then compress to under 200 KB for hero images and under 100 KB for everything else."}},{"@type":"Question","name":"Does compressing images improve SEO?","acceptedAnswer":{"@type":"Answer","text":"Indirectly, yes. Page speed and Core Web Vitals are ranking signals, and image weight is usually the biggest factor in LCP. Smaller images also lower bounce rates on mobile connections."}},{"@type":"Question","name":"Will Squish upload my images anywhere?","acceptedAnswer":{"@type":"Answer","text":"No. Compression uses the browser's own canvas encoder, so files stay on your device. You can even use the tool offline once the page has loaded."}},{"@type":"Question","name":"Can I compress many images at once?","acceptedAnswer":{"@type":"Answer","text":"Yes. Drag a whole folder in. The free plan handles batches of 10 images up to 10 MB each; Pro removes the batch limit and adds ZIP download."}}]}</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/" aria-label="Squish home">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-text"><span class="brand-name">Squish</span><span class="brand-desc">Image compressor</span></span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <span class="brand-by">by <b>Be Management</b></span>
+      <button class="btn btn-primary btn-sm" onclick="openPro('nav')">Pro</button>
+      <button class="btn icon-btn" onclick="toggleTheme()" aria-label="Toggle theme">◐</button>
+    </nav>
+  </div>
+</header>
+
+<section class="hero container">
+  <span class="eyebrow"><span class="dot" aria-hidden="true"></span>Be Management Tools · Images · Web performance</span>
+  <h1>Compress Images for Your Website</h1>
+  <p class="tagline">Shrink hero images, thumbnails and product photos to web-ready sizes without sending a single file to a server.</p>
+  <div class="badges">
+  <span class="badge">100% free</span>
+  <span class="badge">No sign-up</span>
+  <span class="badge">Works in your browser</span>
+  <span class="badge">No watermark</span>
+  <span class="badge">Strips EXIF metadata</span>
+  </div>
+</section>
+
+<main class="container">
+  <div class="tool-layout">
+    <div class="tool-main">
+
+      <!-- Drop zone -->
+      <div class="card">
+        <div class="dropzone" id="dropZone" role="button" tabindex="0" aria-label="Drop images here or press Enter to choose files">
+          <input type="file" id="fileInput" accept="image/*" multiple class="sr-only" aria-label="Choose images">
+          <div class="dz-icon" aria-hidden="true">🗜️</div>
+          <div class="dz-title">Drag &amp; drop images here</div>
+          <div class="dz-sub">or <button type="button" class="link-btn" id="browseBtn">browse files</button> · paste from clipboard (Ctrl+V)</div>
+          <div class="dz-meta" id="limitsHint">Free: up to 10 images per batch, 10 MB each · JPG, PNG, WebP</div>
+        </div>
+        <div class="row dz-actions">
+          <button type="button" class="btn btn-sm" id="sampleBtn">Try with a sample image</button>
+          <span class="hint">Nothing is uploaded. Everything happens on your device.</span>
+        </div>
+      </div>
+
+      <!-- Settings -->
+      <div class="card settings-card">
+        <div class="row-between">
+          <h2 class="card-title">Compression settings</h2>
+          <button type="button" class="btn btn-sm btn-ghost" id="resetSettingsBtn">Reset</button>
+        </div>
+        <div class="grid-2">
+          <div class="field">
+            <label for="quality">Quality <span class="qval" id="qualityVal">75</span></label>
+            <input type="range" id="quality" min="10" max="100" step="1" value="75" aria-describedby="qualityHint">
+            <div class="hint" id="qualityHint">75–85 is the sweet spot for photos. Ignored for PNG output (lossless).</div>
+          </div>
+          <div class="field">
+            <label for="format">Output format</label>
+            <select id="format">
+              <option value="keep">Keep original</option>
+              <option value="image/jpeg">JPEG</option>
+              <option value="image/png">PNG</option>
+              <option value="image/webp">WebP</option>
+            </select>
+            <div class="hint" id="formatHint">WebP is ~30% smaller than JPEG at the same quality.</div>
+          </div>
+          <div class="field">
+            <label for="maxDim">Resize – max width/height</label>
+            <select id="maxDim">
+              <option value="0">No resize</option>
+              <option value="640">640 px</option>
+              <option value="1080">1080 px (Instagram)</option>
+              <option value="1280">1280 px</option>
+              <option value="1600">1600 px</option>
+              <option value="1920" selected>1920 px (Full HD)</option>
+              <option value="2560">2560 px</option>
+              <option value="4096">4096 px</option>
+            </select>
+            <div class="hint">Longest side is limited; images are never upscaled.</div>
+          </div>
+          <div class="field">
+            <label class="checkbox keep-label" for="keepSmaller">
+              <input type="checkbox" id="keepSmaller" checked> Keep original if result is bigger
+            </label>
+            <div class="hint">Already-optimized files are left untouched instead of growing.</div>
+          </div>
+        </div>
+
+        <div class="pro-settings">
+          <div class="field">
+            <label class="checkbox" for="targetMode">
+              <input type="checkbox" id="targetMode"> Target file size <span class="pro-badge pro-only-badge">PRO</span>
+            </label>
+            <div class="row" id="targetRow">
+              <input type="number" id="targetKB" min="5" max="50000" step="5" value="200" class="target-input" aria-label="Target size in kilobytes">
+              <span class="hint target-hint">KB – quality is lowered automatically until each image fits.</span>
+            </div>
+          </div>
+          <div class="field">
+            <label for="filenamePattern">Output filename pattern <span class="pro-badge pro-only-badge">PRO</span></label>
+            <input type="text" id="filenamePattern" value="{name}-compressed.{ext}" placeholder="{name}-compressed.{ext}" autocomplete="off">
+            <div class="hint" id="patternHint">Use {name}, {ext}, {index}, {w}, {h}. Free plan uses {name}-min.{ext}.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Results -->
+      <div class="card results-card hidden" id="resultsCard">
+        <div class="row-between results-head">
+          <h2 class="card-title">Results <span class="count-pill" id="countPill">0</span></h2>
+          <div class="row">
+            <button type="button" class="btn btn-sm" id="recompressBtn" title="Re-run with current settings">↻ Re-compress</button>
+            <button type="button" class="btn btn-sm btn-danger" id="clearBtn">Clear all</button>
+          </div>
+        </div>
+
+        <div class="summary" id="summary">
+          <div class="stat"><div class="k">Original</div><div class="v" id="sumOriginal">0 KB</div></div>
+          <div class="stat"><div class="k">Compressed</div><div class="v" id="sumCompressed">0 KB</div></div>
+          <div class="stat"><div class="k">Saved</div><div class="v saved" id="sumSaved">0%</div></div>
+        </div>
+        <div class="progress hidden" id="progress"><div class="progress-bar" id="progressBar"></div></div>
+
+        <ul class="results" id="results" aria-live="polite"></ul>
+
+        <div class="row download-row">
+          <button type="button" class="btn btn-primary" id="downloadAllBtn">⬇ Download all</button>
+          <button type="button" class="btn" id="downloadZipBtn">🗜 Download ZIP <span class="pro-badge pro-only-badge">PRO</span></button>
+          <span class="hint" id="downloadHint">Click a result to compare before/after.</span>
+        </div>
+      </div>
+
+      <div class="ad-slot horizontal" data-slot="below-tool"></div>
+    </div>
+
+    <aside class="sidebar">
+      <div class="ad-slot" data-slot="sidebar-1"></div>
+      <div class="card pro-card">
+        <h3>Go Pro <span class="pro-badge">LIFETIME</span></h3>
+        <ul>
+          <li>Unlimited images per batch</li>
+          <li>Files up to 50 MB</li>
+          <li>Download everything as a ZIP</li>
+          <li>Target file size &amp; custom filenames</li>
+        </ul>
+        <button class="btn btn-primary btn-block" onclick="openPro('sidebar')">Get Pro – <span data-pro-price>$9</span> one-time</button>
+      </div>
+      <div class="card lead-card" id="leadCard" hidden>
+        <h3>Faster sites, lighter images</h3>
+        <p class="hint">Web performance tips, image format guides and new free tools. No spam.</p>
+        <form class="lead-form" onsubmit="return subscribeNewsletter(event)">
+          <input type="email" name="email" required placeholder="you@email.com" aria-label="Email address" autocomplete="email">
+          <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none" aria-hidden="true">
+          <button class="btn btn-primary" type="submit">Subscribe</button>
+        </form>
+        <p class="hint tiny">No spam. Unsubscribe anytime.</p>
+      </div>
+      <div class="ad-slot" data-slot="sidebar-2"></div>
+    </aside>
+  </div>
+</main>
+
+<!-- uses:start -->
+<section class="uses container" id="popular-uses" aria-labelledby="usesTitle">
+  <h2 id="usesTitle">More ways to use Squish</h2>
+  <ul class="uses-grid">
+      <li><a href="/compress-images-for-website" class="current" aria-current="page">Compress Images for Your Website</a></li>
+      <li><a href="/compress-image-for-email-attachment">Compress an Image for Email</a></li>
+      <li><a href="/compress-photos-for-instagram">Compress Photos for Instagram Without Losing Quality</a></li>
+      <li><a href="/reduce-image-size-for-wordpress">Reduce Image Size for WordPress</a></li>
+      <li><a href="/compress-png-online">Compress PNG Online</a></li>
+      <li><a href="/convert-png-to-webp">Convert PNG to WebP</a></li>
+      <li><a href="/compress-images-for-shopify">Compress Images for Shopify</a></li>
+      <li><a href="/resize-image-for-linkedin-profile">Resize an Image for Your LinkedIn Profile Photo</a></li>
+  </ul>
+</section>
+<!-- uses:end -->
+
+<section class="content container">
+  <p class="breadcrumb"><a href="/">Squish</a> › Compress Images for Your Website</p>
+  <h2>Compress Images for Your Website: how it works</h2>
+  <p>Oversized images are the most common reason a page fails the Largest Contentful Paint (LCP) threshold of 2.5 seconds. A 4 MB photo straight out of a phone camera can be served at 150 KB with no visible difference on screen.</p><p>Squish compresses, resizes and converts images entirely inside your browser. It is free, there is nothing to install, and your files never leave your computer. Drop up to 10 images at a time, pick a format and quality, and download the results.</p>
+  <h2>Target sizes that keep Core Web Vitals green</h2>
+  <p>Use these numbers as a starting point when preparing images for a website:</p><ul><li><strong>Hero or banner images:</strong> 1920 px wide, under 200 KB. Choose 2560 px only if the image fills the viewport on retina screens.</li><li><strong>Content and blog images:</strong> 1200–1600 px wide, 60–120 KB.</li><li><strong>Thumbnails and cards:</strong> 400–800 px wide, under 40 KB.</li><li><strong>Logos and icons:</strong> PNG or WebP with transparency, usually under 20 KB.</li></ul><p>In Squish, set <em>Max dimension</em> to the width your layout actually renders and move the quality slider to 70–80. For JPEG and WebP, that range typically cuts file size by 60–85% while artefacts remain invisible at normal zoom.</p>
+  <h2>Pick the format per image, not per site</h2>
+  <p>WebP is the best default for web delivery: it is roughly 25–35% smaller than JPEG at equal visual quality and it supports transparency, so it replaces both JPEG and PNG in most cases. Every current browser renders it, including Safari since version 14.</p><p>Keep JPEG when the image will also be reused in email or older CMS plugins that cannot read WebP. Keep PNG only for flat graphics where every pixel must be exact, such as screenshots of UI with text. Tick <code>Keep smaller</code> so Squish returns the original whenever its re-encode would not actually save bytes.</p>
+  <h2>Workflow for a full site</h2>
+  <ol><li>Export images from your design tool or camera at the largest size you need.</li><li>Open Squish, drag a folder of images, set the format to WebP and max dimension to 1920 px.</li><li>Download the results and upload them to your CMS or <code>/assets</code> folder.</li><li>Run PageSpeed Insights again and compare the LCP figure and the "Properly size images" audit.</li></ol><p>Because the encoder runs on your machine, batches of large photos finish in seconds and nothing is stored anywhere afterwards.</p>
+  <h2>Frequently asked questions</h2>
+  <div class="faq">
+    <details><summary>What image size is best for a website?</summary><p>Match the pixel width to the largest size the image is displayed at, usually 1920 px for full-width banners and 1200–1600 px for article images, then compress to under 200 KB for hero images and under 100 KB for everything else.</p></details>
+    <details><summary>Does compressing images improve SEO?</summary><p>Indirectly, yes. Page speed and Core Web Vitals are ranking signals, and image weight is usually the biggest factor in LCP. Smaller images also lower bounce rates on mobile connections.</p></details>
+    <details><summary>Will Squish upload my images anywhere?</summary><p>No. Compression uses the browser's own canvas encoder, so files stay on your device. You can even use the tool offline once the page has loaded.</p></details>
+    <details><summary>Can I compress many images at once?</summary><p>Yes. Drag a whole folder in. The free plan handles batches of 10 images up to 10 MB each; Pro removes the batch limit and adds ZIP download.</p></details>
+  </div>
+  <p class="back-guide">Looking for the full guide, tips and the complete FAQ? Read the <a href="/">main Squish page</a>.</p>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <span class="brand-mark lg" aria-hidden="true"></span>
+      <div>
+        <strong>Be Management Tools</strong>
+        <p>A collection of free, private tools that run entirely in your browser. Squish is the image compressor of the family, built and maintained by Be Management.</p>
+      </div>
+    </div>
+    <div class="footer-tools">
+      <strong>More free tools</strong>
+      <ul>
+        <li><a href="https://quickinvoice-tool.vercel.app">QuickInvoice · Invoices</a></li>
+        <li><a href="https://ratecalc-tool.vercel.app">RateCalc · Freelance rates</a></li>
+        <li><a href="https://qrforge-tool.vercel.app">QRForge · QR codes</a></li>
+        <li><a href="https://squish-tool.vercel.app" class="current">Squish · Image compressor</a></li>
+        <li><a href="https://growthcalc-tool.vercel.app">GrowthCalc · Compound interest</a></li>
+        <li><a href="https://subnetkit-tool.vercel.app">SubnetKit · IP subnets</a></li>
+      </ul>
+    </div>
+    <div class="footer-meta">
+      <span>© <span data-year></span> Be Management · Squish. Images never leave your device.</span>
+      <span><a href="/privacy">Privacy</a> · <a href="/terms">Terms</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- Before/after compare modal -->
+<div class="modal compare-modal" id="compareModal" role="dialog" aria-modal="true" aria-labelledby="compareTitle">
+  <div class="card">
+    <button class="btn btn-sm close" id="compareClose" aria-label="Close comparison">✕</button>
+    <h3 id="compareTitle">Before / after</h3>
+    <div class="compare-meta" id="compareMeta"></div>
+    <div class="compare-stage" id="compareStage">
+      <img id="compareOriginal" alt="Original image">
+      <img id="compareCompressed" alt="Compressed image">
+      <div class="compare-handle" id="compareHandle" aria-hidden="true"></div>
+      <span class="compare-label left">Original</span>
+      <span class="compare-label right">Compressed</span>
+    </div>
+    <label for="compareSlider" class="sr-only">Reveal compressed vs original</label>
+    <input type="range" id="compareSlider" min="0" max="100" value="50" step="0.5">
+  </div>
+</div>
+
+<!-- Pro modal -->
+<div class="modal" id="proModal" role="dialog" aria-modal="true">
+  <div class="card">
+    <button class="btn btn-sm close" onclick="closePro()">✕</button>
+    <h3>Upgrade to Squish Pro <span class="pro-badge">LIFETIME</span></h3>
+    <div class="price"><span id="proPrice"></span> <small>one-time</small></div>
+    <ul>
+      <li>Unlimited batch size</li>
+      <li>50 MB per file</li>
+      <li>Download as ZIP</li>
+      <li>Target file size mode</li>
+      <li>Custom filenames</li>
+      <li>Lifetime updates</li>
+    </ul>
+    <button class="btn btn-primary btn-block" onclick="goCheckout()">Get Pro</button>
+    <p class="hint" style="margin-top:12px">Already purchased? <a href="#" onclick="document.getElementById('licenseRow').classList.toggle('hidden');return false">Enter license key</a></p>
+    <div class="row hidden" id="licenseRow"><input id="licenseKey" placeholder="License key"><button class="btn" onclick="activateLicense(document.getElementById('licenseKey').value)">Activate</button></div>
+  </div>
+</div>
+<script src="/app.js"></script>
+</body>
+</html>
