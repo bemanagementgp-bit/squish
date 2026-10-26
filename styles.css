@@ -46,6 +46,7 @@ img{max-width:100%}
 .nav{display:flex;align-items:center;gap:6px}
 .nav .sep{width:1px;height:22px;background:var(--line)}
 @media(max-width:720px){.brand-by,.brand-desc,.nav .sep{display:none}.navbar{padding:5px 6px}}
+@media(max-width:480px){.brand-name{max-width:110px;overflow:hidden;text-overflow:ellipsis}.navbar{gap:4px}.navbar .btn-sm{padding:0 10px}}
 /* more tools dropdown (no-JS <details>) */
 .more-tools{position:relative}
 .more-tools summary{list-style:none;cursor:pointer}
@@ -242,6 +243,7 @@ td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
 *{scrollbar-width:thin;scrollbar-color:rgba(127,127,127,.35) transparent}
 @media print{.site-header,.sidebar,.site-footer,.content,.no-print,.toast,.modal,.hero,.ad-slot,.uses,.studio-actions,.studio-panel{display:none!important}body{background:#fff;color:#000}}
 /* ===== end shared base ===== */
+
 
 
 
