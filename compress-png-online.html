@@ -4,17 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Compress PNG Online – Free, Lossless, No Upload | Squish</title>
-  <meta name="description" content="Compress PNG online without uploading: re-encode losslessly, resize oversized screenshots, or convert to WebP while keeping transparency. Free and private in your browser.">
+  <meta name="description" content="Compress PNG online for free, right in your browser. Shrink screenshots and graphics, keep transparency, or convert to WebP for even smaller files. No upload.">
   <link rel="canonical" href="https://squish-tool.vercel.app/compress-png-online">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://squish-tool.vercel.app/compress-png-online">
   <meta property="og:title" content="Compress PNG Online – Free, Lossless, No Upload | Squish">
-  <meta property="og:description" content="Compress PNG online without uploading: re-encode losslessly, resize oversized screenshots, or convert to WebP while keeping transparency. Free and private in your browser.">
+  <meta property="og:description" content="Compress PNG online for free, right in your browser. Shrink screenshots and graphics, keep transparency, or convert to WebP for even smaller files. No upload.">
   <meta property="og:image" content="https://squish-tool.vercel.app/favicon.svg">
   <meta property="og:site_name" content="Squish">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Compress PNG Online – Free, Lossless, No Upload | Squish">
-  <meta name="twitter:description" content="Compress PNG online without uploading: re-encode losslessly, resize oversized screenshots, or convert to WebP while keeping transparency. Free and private in your browser.">
+  <meta name="twitter:description" content="Compress PNG online for free, right in your browser. Shrink screenshots and graphics, keep transparency, or convert to WebP for even smaller files. No upload.">
   <meta name="twitter:image" content="https://squish-tool.vercel.app/favicon.svg">
   <meta name="theme-color" content="#0b0f17">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="/styles.css">
   <script src="/config.js"></script>
   <script src="/monetize.js"></script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Compress PNG Online – Free, Lossless, No Upload | Squish","description":"Compress PNG online without uploading: re-encode losslessly, resize oversized screenshots, or convert to WebP while keeping transparency. Free and private in your browser.","url":"https://squish-tool.vercel.app/compress-png-online","isPartOf":{"@type":"WebSite","name":"Squish","url":"https://squish-tool.vercel.app/"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Compress PNG Online – Free, Lossless, No Upload | Squish","description":"Compress PNG online for free, right in your browser. Shrink screenshots and graphics, keep transparency, or convert to WebP for even smaller files. No upload.","url":"https://squish-tool.vercel.app/compress-png-online","isPartOf":{"@type":"WebSite","name":"Squish","url":"https://squish-tool.vercel.app/"}}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Squish","item":"https://squish-tool.vercel.app/"},{"@type":"ListItem","position":2,"name":"Compress PNG Online","item":"https://squish-tool.vercel.app/compress-png-online"}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Why doesn't the quality slider change my PNG size?","acceptedAnswer":{"@type":"Answer","text":"PNG is lossless, so there is no quality parameter to lower. To reduce a PNG, resize it or convert it to WebP or JPEG. Squish explains this in the format hint when PNG output is selected."}},{"@type":"Question","name":"Can I compress a PNG and keep transparency?","acceptedAnswer":{"@type":"Answer","text":"Yes. Both PNG output and WebP output preserve the alpha channel. Only JPEG flattens transparent areas to white."}},{"@type":"Question","name":"Is there a file size limit?","acceptedAnswer":{"@type":"Answer","text":"Free use covers PNGs up to 10 MB each and 10 files per batch. Pro raises the per-file limit to 50 MB."}},{"@type":"Question","name":"Are my screenshots uploaded?","acceptedAnswer":{"@type":"Answer","text":"No. Everything runs in the browser, which matters for screenshots that may contain private data or unreleased work."}}]}</script>
 </head>
@@ -32,15 +32,32 @@
 
 <header class="site-header">
   <div class="container">
+    <div class="navbar">
     <a class="brand" href="/" aria-label="Squish home">
       <span class="brand-mark" aria-hidden="true"></span>
       <span class="brand-text"><span class="brand-name">Squish</span><span class="brand-desc">Image compressor</span></span>
     </a>
     <nav class="nav" aria-label="Main">
+      <details class="more-tools">
+        <summary class="btn btn-ghost btn-sm">More tools ▾</summary>
+        <div class="menu">
+          <a href="https://quickinvoice-tool.vercel.app"><span class="mi">Q</span>QuickInvoice<small>Invoices</small></a>
+          <a href="https://ratecalc-tool.vercel.app"><span class="mi">R</span>RateCalc<small>Freelance rates</small></a>
+          <a href="https://qrforge-tool.vercel.app"><span class="mi">Q</span>QRForge<small>QR codes</small></a>
+          <a href="https://squish-tool.vercel.app" class="current"><span class="mi">S</span>Squish<small>Image compressor</small></a>
+          <a href="https://growthcalc-tool.vercel.app"><span class="mi">G</span>GrowthCalc<small>Compound interest</small></a>
+          <a href="https://subnetkit-tool.vercel.app"><span class="mi">N</span>SubnetKit<small>IP subnets</small></a>
+          <a href="https://shotstudio-tool.vercel.app"><span class="mi">S</span>Screenshot Studio<small>Screenshot mockups</small></a>
+          <a href="https://mockuplab-tool.vercel.app"><span class="mi">M</span>Social Mockup Lab<small>Chat & post mockups</small></a>
+          <a href="https://carouselmaker-tool.vercel.app"><span class="mi">C</span>Carousel Maker<small>Carousel slides</small></a>
+        </div>
+      </details>
+      <span class="sep" aria-hidden="true"></span>
       <span class="brand-by">by <b>Be Management</b></span>
       <button class="btn btn-primary btn-sm" onclick="openPro('nav')">Pro</button>
       <button class="btn icon-btn" onclick="toggleTheme()" aria-label="Toggle theme">◐</button>
     </nav>
+    </div>
   </div>
 </header>
 
@@ -246,6 +263,9 @@
         <li><a href="https://squish-tool.vercel.app" class="current">Squish · Image compressor</a></li>
         <li><a href="https://growthcalc-tool.vercel.app">GrowthCalc · Compound interest</a></li>
         <li><a href="https://subnetkit-tool.vercel.app">SubnetKit · IP subnets</a></li>
+        <li><a href="https://shotstudio-tool.vercel.app">Screenshot Studio · Screenshot mockups</a></li>
+        <li><a href="https://mockuplab-tool.vercel.app">Social Mockup Lab · Chat & post mockups</a></li>
+        <li><a href="https://carouselmaker-tool.vercel.app">Carousel Maker · Carousel slides</a></li>
       </ul>
     </div>
     <div class="footer-meta">

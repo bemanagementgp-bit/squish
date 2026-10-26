@@ -4,17 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Reduce Image Size for WordPress Before Uploading | Squish</title>
-  <meta name="description" content="Reduce image size for WordPress before you upload: fit the media library limit, speed up pages and avoid bloated uploads folders. Free browser tool, no plugin needed.">
+  <meta name="description" content="Reduce image size for WordPress before uploading: compress JPG, PNG and WebP, resize to your theme width and speed up your site. Free, private, no plugin.">
   <link rel="canonical" href="https://squish-tool.vercel.app/reduce-image-size-for-wordpress">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://squish-tool.vercel.app/reduce-image-size-for-wordpress">
   <meta property="og:title" content="Reduce Image Size for WordPress Before Uploading | Squish">
-  <meta property="og:description" content="Reduce image size for WordPress before you upload: fit the media library limit, speed up pages and avoid bloated uploads folders. Free browser tool, no plugin needed.">
+  <meta property="og:description" content="Reduce image size for WordPress before uploading: compress JPG, PNG and WebP, resize to your theme width and speed up your site. Free, private, no plugin.">
   <meta property="og:image" content="https://squish-tool.vercel.app/favicon.svg">
   <meta property="og:site_name" content="Squish">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Reduce Image Size for WordPress Before Uploading | Squish">
-  <meta name="twitter:description" content="Reduce image size for WordPress before you upload: fit the media library limit, speed up pages and avoid bloated uploads folders. Free browser tool, no plugin needed.">
+  <meta name="twitter:description" content="Reduce image size for WordPress before uploading: compress JPG, PNG and WebP, resize to your theme width and speed up your site. Free, private, no plugin.">
   <meta name="twitter:image" content="https://squish-tool.vercel.app/favicon.svg">
   <meta name="theme-color" content="#0b0f17">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="/styles.css">
   <script src="/config.js"></script>
   <script src="/monetize.js"></script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Reduce Image Size for WordPress Before Uploading | Squish","description":"Reduce image size for WordPress before you upload: fit the media library limit, speed up pages and avoid bloated uploads folders. Free browser tool, no plugin needed.","url":"https://squish-tool.vercel.app/reduce-image-size-for-wordpress","isPartOf":{"@type":"WebSite","name":"Squish","url":"https://squish-tool.vercel.app/"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Reduce Image Size for WordPress Before Uploading | Squish","description":"Reduce image size for WordPress before uploading: compress JPG, PNG and WebP, resize to your theme width and speed up your site. Free, private, no plugin.","url":"https://squish-tool.vercel.app/reduce-image-size-for-wordpress","isPartOf":{"@type":"WebSite","name":"Squish","url":"https://squish-tool.vercel.app/"}}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Squish","item":"https://squish-tool.vercel.app/"},{"@type":"ListItem","position":2,"name":"Reduce Image Size for WordPress","item":"https://squish-tool.vercel.app/reduce-image-size-for-wordpress"}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the maximum image size for WordPress?","acceptedAnswer":{"@type":"Answer","text":"The upload cap depends on the host, often 2–64 MB. Practically, keep images under 2560 px on the long edge and under 250 KB so WordPress does not create a -scaled copy and pages load quickly."}},{"@type":"Question","name":"Should I use a WordPress image compression plugin instead?","acceptedAnswer":{"@type":"Answer","text":"Plugins work but use your server's CPU or a paid API quota. Compressing before upload with a free browser tool gives you control over each image and leaves your site lighter."}},{"@type":"Question","name":"Does WordPress support WebP?","acceptedAnswer":{"@type":"Answer","text":"Yes, since WordPress 5.8 you can upload WebP files directly to the Media Library and use them like JPEG or PNG."}},{"@type":"Question","name":"Will compressing hurt image quality on my blog?","acceptedAnswer":{"@type":"Answer","text":"At quality 75 and sensible dimensions the difference is not visible in a page layout. You can compare before and after side by side in Squish before downloading."}}]}</script>
 </head>
@@ -32,15 +32,32 @@
 
 <header class="site-header">
   <div class="container">
+    <div class="navbar">
     <a class="brand" href="/" aria-label="Squish home">
       <span class="brand-mark" aria-hidden="true"></span>
       <span class="brand-text"><span class="brand-name">Squish</span><span class="brand-desc">Image compressor</span></span>
     </a>
     <nav class="nav" aria-label="Main">
+      <details class="more-tools">
+        <summary class="btn btn-ghost btn-sm">More tools ▾</summary>
+        <div class="menu">
+          <a href="https://quickinvoice-tool.vercel.app"><span class="mi">Q</span>QuickInvoice<small>Invoices</small></a>
+          <a href="https://ratecalc-tool.vercel.app"><span class="mi">R</span>RateCalc<small>Freelance rates</small></a>
+          <a href="https://qrforge-tool.vercel.app"><span class="mi">Q</span>QRForge<small>QR codes</small></a>
+          <a href="https://squish-tool.vercel.app" class="current"><span class="mi">S</span>Squish<small>Image compressor</small></a>
+          <a href="https://growthcalc-tool.vercel.app"><span class="mi">G</span>GrowthCalc<small>Compound interest</small></a>
+          <a href="https://subnetkit-tool.vercel.app"><span class="mi">N</span>SubnetKit<small>IP subnets</small></a>
+          <a href="https://shotstudio-tool.vercel.app"><span class="mi">S</span>Screenshot Studio<small>Screenshot mockups</small></a>
+          <a href="https://mockuplab-tool.vercel.app"><span class="mi">M</span>Social Mockup Lab<small>Chat & post mockups</small></a>
+          <a href="https://carouselmaker-tool.vercel.app"><span class="mi">C</span>Carousel Maker<small>Carousel slides</small></a>
+        </div>
+      </details>
+      <span class="sep" aria-hidden="true"></span>
       <span class="brand-by">by <b>Be Management</b></span>
       <button class="btn btn-primary btn-sm" onclick="openPro('nav')">Pro</button>
       <button class="btn icon-btn" onclick="toggleTheme()" aria-label="Toggle theme">◐</button>
     </nav>
+    </div>
   </div>
 </header>
 
@@ -246,6 +263,9 @@
         <li><a href="https://squish-tool.vercel.app" class="current">Squish · Image compressor</a></li>
         <li><a href="https://growthcalc-tool.vercel.app">GrowthCalc · Compound interest</a></li>
         <li><a href="https://subnetkit-tool.vercel.app">SubnetKit · IP subnets</a></li>
+        <li><a href="https://shotstudio-tool.vercel.app">Screenshot Studio · Screenshot mockups</a></li>
+        <li><a href="https://mockuplab-tool.vercel.app">Social Mockup Lab · Chat & post mockups</a></li>
+        <li><a href="https://carouselmaker-tool.vercel.app">Carousel Maker · Carousel slides</a></li>
       </ul>
     </div>
     <div class="footer-meta">

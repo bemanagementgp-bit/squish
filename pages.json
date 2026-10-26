@@ -23,10 +23,22 @@
       }
     ],
     "faq": [
-      { "q": "What image size is best for a website?", "a": "Match the pixel width to the largest size the image is displayed at, usually 1920 px for full-width banners and 1200–1600 px for article images, then compress to under 200 KB for hero images and under 100 KB for everything else." },
-      { "q": "Does compressing images improve SEO?", "a": "Indirectly, yes. Page speed and Core Web Vitals are ranking signals, and image weight is usually the biggest factor in LCP. Smaller images also lower bounce rates on mobile connections." },
-      { "q": "Will Squish upload my images anywhere?", "a": "No. Compression uses the browser's own canvas encoder, so files stay on your device. You can even use the tool offline once the page has loaded." },
-      { "q": "Can I compress many images at once?", "a": "Yes. Drag a whole folder in. The free plan handles batches of 10 images up to 10 MB each; Pro removes the batch limit and adds ZIP download." }
+      {
+        "q": "What image size is best for a website?",
+        "a": "Match the pixel width to the largest size the image is displayed at, usually 1920 px for full-width banners and 1200–1600 px for article images, then compress to under 200 KB for hero images and under 100 KB for everything else."
+      },
+      {
+        "q": "Does compressing images improve SEO?",
+        "a": "Indirectly, yes. Page speed and Core Web Vitals are ranking signals, and image weight is usually the biggest factor in LCP. Smaller images also lower bounce rates on mobile connections."
+      },
+      {
+        "q": "Will Squish upload my images anywhere?",
+        "a": "No. Compression uses the browser's own canvas encoder, so files stay on your device. You can even use the tool offline once the page has loaded."
+      },
+      {
+        "q": "Can I compress many images at once?",
+        "a": "Yes. Drag a whole folder in. The free plan handles batches of 10 images up to 10 MB each; Pro removes the batch limit and adds ZIP download."
+      }
     ],
     "query": ""
   },
@@ -34,7 +46,7 @@
     "slug": "compress-image-for-email-attachment",
     "keyword": "compress image for email",
     "title": "Compress an Image for Email Attachment – Free Online | Squish",
-    "description": "Compress an image for email so it fits under Gmail and Outlook attachment limits. Shrink photos from several MB to a few hundred KB in your browser, free, no upload.",
+    "description": "Compress images for email attachments in your browser: get photos under 1 MB or 25 MB per message without uploading anything. Free, private, no sign-up.",
     "eyebrow": "Images · Email",
     "h1": "Compress an Image for Email",
     "tagline": "Make photos small enough to send through any mail server while keeping them sharp on the recipient's screen.",
@@ -50,10 +62,22 @@
       }
     ],
     "faq": [
-      { "q": "How do I make a photo smaller to email it?", "a": "Open Squish, drop the photo in, choose a max dimension of 1600 px and quality 70, then download. The file drops from several megabytes to a few hundred kilobytes." },
-      { "q": "Does compressing lower the quality noticeably?", "a": "At quality 65–75 and 1280–1600 px the difference is invisible on a screen. Visible softness only appears if you push quality below 50 or resize far below the display size." },
-      { "q": "Can I compress several photos before sending?", "a": "Yes. Select or drag up to 10 images at once on the free plan. They are processed in parallel and you download them in one click." },
-      { "q": "Is anything stored on a server?", "a": "No. Squish runs in the browser, so your photos never leave your device and there is nothing to delete afterwards." }
+      {
+        "q": "How do I make a photo smaller to email it?",
+        "a": "Open Squish, drop the photo in, choose a max dimension of 1600 px and quality 70, then download. The file drops from several megabytes to a few hundred kilobytes."
+      },
+      {
+        "q": "Does compressing lower the quality noticeably?",
+        "a": "At quality 65–75 and 1280–1600 px the difference is invisible on a screen. Visible softness only appears if you push quality below 50 or resize far below the display size."
+      },
+      {
+        "q": "Can I compress several photos before sending?",
+        "a": "Yes. Select or drag up to 10 images at once on the free plan. They are processed in parallel and you download them in one click."
+      },
+      {
+        "q": "Is anything stored on a server?",
+        "a": "No. Squish runs in the browser, so your photos never leave your device and there is nothing to delete afterwards."
+      }
     ],
     "query": ""
   },
@@ -61,7 +85,7 @@
     "slug": "compress-photos-for-instagram",
     "keyword": "compress photos for Instagram without losing quality",
     "title": "Compress Photos for Instagram Without Losing Quality | Squish",
-    "description": "Compress photos for Instagram without losing quality: resize to 1080 px, export JPEG at the right quality, and avoid Instagram's harsh re-compression. Free, in-browser.",
+    "description": "Compress photos for Instagram without visible quality loss. Resize to 1080px, pick the right JPEG quality and keep colors sharp, all in your browser for free.",
     "eyebrow": "Images · Social media",
     "h1": "Compress Photos for Instagram Without Losing Quality",
     "tagline": "Prepare feed posts, carousels and stories at Instagram's native resolution so the app has nothing left to crush.",
@@ -77,10 +101,22 @@
       }
     ],
     "faq": [
-      { "q": "Why do my Instagram photos look blurry after upload?", "a": "Usually because the upload was far larger than 1080 px and Instagram downscaled it with heavy compression. Resizing to 1080 px yourself and exporting at quality 85–90 avoids most of the damage." },
-      { "q": "What is the best file size for an Instagram post?", "a": "Between 200 KB and 1 MB at 1080 px wide. Anything larger gains nothing because Instagram stores a 1080 px version regardless." },
-      { "q": "Can I prepare a whole carousel at once?", "a": "Yes. Drop all ten slides into Squish, set the preset once and download them together. The free plan covers exactly 10 images per batch, matching a carousel." },
-      { "q": "Does Squish keep my photos private?", "a": "Yes. All processing happens locally in the browser; nothing is uploaded, logged or stored." }
+      {
+        "q": "Why do my Instagram photos look blurry after upload?",
+        "a": "Usually because the upload was far larger than 1080 px and Instagram downscaled it with heavy compression. Resizing to 1080 px yourself and exporting at quality 85–90 avoids most of the damage."
+      },
+      {
+        "q": "What is the best file size for an Instagram post?",
+        "a": "Between 200 KB and 1 MB at 1080 px wide. Anything larger gains nothing because Instagram stores a 1080 px version regardless."
+      },
+      {
+        "q": "Can I prepare a whole carousel at once?",
+        "a": "Yes. Drop all ten slides into Squish, set the preset once and download them together. The free plan covers exactly 10 images per batch, matching a carousel."
+      },
+      {
+        "q": "Does Squish keep my photos private?",
+        "a": "Yes. All processing happens locally in the browser; nothing is uploaded, logged or stored."
+      }
     ],
     "query": ""
   },
@@ -88,7 +124,7 @@
     "slug": "reduce-image-size-for-wordpress",
     "keyword": "reduce image size for WordPress",
     "title": "Reduce Image Size for WordPress Before Uploading | Squish",
-    "description": "Reduce image size for WordPress before you upload: fit the media library limit, speed up pages and avoid bloated uploads folders. Free browser tool, no plugin needed.",
+    "description": "Reduce image size for WordPress before uploading: compress JPG, PNG and WebP, resize to your theme width and speed up your site. Free, private, no plugin.",
     "eyebrow": "Images · WordPress",
     "h1": "Reduce Image Size for WordPress",
     "tagline": "Optimize photos before they hit the Media Library so WordPress generates small, fast variants instead of copies of a huge original.",
@@ -104,10 +140,22 @@
       }
     ],
     "faq": [
-      { "q": "What is the maximum image size for WordPress?", "a": "The upload cap depends on the host, often 2–64 MB. Practically, keep images under 2560 px on the long edge and under 250 KB so WordPress does not create a -scaled copy and pages load quickly." },
-      { "q": "Should I use a WordPress image compression plugin instead?", "a": "Plugins work but use your server's CPU or a paid API quota. Compressing before upload with a free browser tool gives you control over each image and leaves your site lighter." },
-      { "q": "Does WordPress support WebP?", "a": "Yes, since WordPress 5.8 you can upload WebP files directly to the Media Library and use them like JPEG or PNG." },
-      { "q": "Will compressing hurt image quality on my blog?", "a": "At quality 75 and sensible dimensions the difference is not visible in a page layout. You can compare before and after side by side in Squish before downloading." }
+      {
+        "q": "What is the maximum image size for WordPress?",
+        "a": "The upload cap depends on the host, often 2–64 MB. Practically, keep images under 2560 px on the long edge and under 250 KB so WordPress does not create a -scaled copy and pages load quickly."
+      },
+      {
+        "q": "Should I use a WordPress image compression plugin instead?",
+        "a": "Plugins work but use your server's CPU or a paid API quota. Compressing before upload with a free browser tool gives you control over each image and leaves your site lighter."
+      },
+      {
+        "q": "Does WordPress support WebP?",
+        "a": "Yes, since WordPress 5.8 you can upload WebP files directly to the Media Library and use them like JPEG or PNG."
+      },
+      {
+        "q": "Will compressing hurt image quality on my blog?",
+        "a": "At quality 75 and sensible dimensions the difference is not visible in a page layout. You can compare before and after side by side in Squish before downloading."
+      }
     ],
     "query": ""
   },
@@ -115,7 +163,7 @@
     "slug": "compress-png-online",
     "keyword": "compress PNG online",
     "title": "Compress PNG Online – Free, Lossless, No Upload | Squish",
-    "description": "Compress PNG online without uploading: re-encode losslessly, resize oversized screenshots, or convert to WebP while keeping transparency. Free and private in your browser.",
+    "description": "Compress PNG online for free, right in your browser. Shrink screenshots and graphics, keep transparency, or convert to WebP for even smaller files. No upload.",
     "eyebrow": "Images · PNG",
     "h1": "Compress PNG Online",
     "tagline": "Make PNG screenshots, logos and graphics lighter without ever sending them off your machine.",
@@ -131,10 +179,22 @@
       }
     ],
     "faq": [
-      { "q": "Why doesn't the quality slider change my PNG size?", "a": "PNG is lossless, so there is no quality parameter to lower. To reduce a PNG, resize it or convert it to WebP or JPEG. Squish explains this in the format hint when PNG output is selected." },
-      { "q": "Can I compress a PNG and keep transparency?", "a": "Yes. Both PNG output and WebP output preserve the alpha channel. Only JPEG flattens transparent areas to white." },
-      { "q": "Is there a file size limit?", "a": "Free use covers PNGs up to 10 MB each and 10 files per batch. Pro raises the per-file limit to 50 MB." },
-      { "q": "Are my screenshots uploaded?", "a": "No. Everything runs in the browser, which matters for screenshots that may contain private data or unreleased work." }
+      {
+        "q": "Why doesn't the quality slider change my PNG size?",
+        "a": "PNG is lossless, so there is no quality parameter to lower. To reduce a PNG, resize it or convert it to WebP or JPEG. Squish explains this in the format hint when PNG output is selected."
+      },
+      {
+        "q": "Can I compress a PNG and keep transparency?",
+        "a": "Yes. Both PNG output and WebP output preserve the alpha channel. Only JPEG flattens transparent areas to white."
+      },
+      {
+        "q": "Is there a file size limit?",
+        "a": "Free use covers PNGs up to 10 MB each and 10 files per batch. Pro raises the per-file limit to 50 MB."
+      },
+      {
+        "q": "Are my screenshots uploaded?",
+        "a": "No. Everything runs in the browser, which matters for screenshots that may contain private data or unreleased work."
+      }
     ],
     "query": ""
   },
@@ -142,7 +202,7 @@
     "slug": "convert-png-to-webp",
     "keyword": "convert PNG to WebP",
     "title": "Convert PNG to WebP Online – Keep Transparency, Free | Squish",
-    "description": "Convert PNG to WebP in your browser and cut file size by 60–80% while keeping transparency. Free online converter with quality control and batch support, no upload.",
+    "description": "Convert PNG to WebP online for free. Keep transparency, cut file size by 25 to 80 percent and download instantly. Runs in your browser, nothing is uploaded.",
     "eyebrow": "Images · Format conversion",
     "h1": "Convert PNG to WebP",
     "tagline": "Turn heavy PNG graphics into lightweight WebP files that load fast and still have transparent backgrounds.",
@@ -158,10 +218,22 @@
       }
     ],
     "faq": [
-      { "q": "Does WebP support transparency like PNG?", "a": "Yes. WebP has a full 8-bit alpha channel, in both lossy and lossless modes, so converted logos and icons keep their transparent backgrounds." },
-      { "q": "Is WebP lossy or lossless?", "a": "Both exist. Browser-based encoders, including the one Squish uses, write lossy WebP with a quality setting, which is what gives the large size reduction. At quality 90 or above the result is visually indistinguishable from the PNG." },
-      { "q": "Can I convert many PNGs at once?", "a": "Yes. Drop a folder in, choose WebP once and all files are converted together. The free plan processes 10 images per batch." },
-      { "q": "Will my images be uploaded during conversion?", "a": "No. The conversion runs in your browser; your files never touch a server." }
+      {
+        "q": "Does WebP support transparency like PNG?",
+        "a": "Yes. WebP has a full 8-bit alpha channel, in both lossy and lossless modes, so converted logos and icons keep their transparent backgrounds."
+      },
+      {
+        "q": "Is WebP lossy or lossless?",
+        "a": "Both exist. Browser-based encoders, including the one Squish uses, write lossy WebP with a quality setting, which is what gives the large size reduction. At quality 90 or above the result is visually indistinguishable from the PNG."
+      },
+      {
+        "q": "Can I convert many PNGs at once?",
+        "a": "Yes. Drop a folder in, choose WebP once and all files are converted together. The free plan processes 10 images per batch."
+      },
+      {
+        "q": "Will my images be uploaded during conversion?",
+        "a": "No. The conversion runs in your browser; your files never touch a server."
+      }
     ],
     "query": ""
   },
@@ -169,7 +241,7 @@
     "slug": "compress-images-for-shopify",
     "keyword": "compress images for Shopify",
     "title": "Compress Images for Shopify Product Listings – Free | Squish",
-    "description": "Compress images for Shopify product pages: 2048 px square photos under 500 KB that pass the upload limits, zoom cleanly and keep your store fast. Free, no upload.",
+    "description": "Compress images for Shopify and Etsy listings: hit the recommended dimensions and sizes, keep products sharp and load pages faster. Free and private, no upload.",
     "eyebrow": "Images · E-commerce",
     "h1": "Compress Images for Shopify",
     "tagline": "Prepare product photos that meet Shopify's specs, zoom sharply and keep collection pages fast on mobile.",
@@ -185,10 +257,22 @@
       }
     ],
     "faq": [
-      { "q": "What image size does Shopify recommend for products?", "a": "2048 × 2048 pixels, square. Files must be under 20 MB and 20 megapixels, but for speed aim for under 500 KB each." },
-      { "q": "Does Shopify compress images automatically?", "a": "Shopify's CDN resizes and converts to WebP on delivery, but it starts from the original you upload. Uploading a well-compressed 2048 px file gives better results and faster theme previews than uploading a 6 MB camera file." },
-      { "q": "Can I use this for Etsy or WooCommerce too?", "a": "Yes. Etsy recommends at least 2000 px on the shortest side and WooCommerce works well with 1200–2048 px squares; the same Squish workflow applies, only the max dimension changes." },
-      { "q": "How many product photos can I compress at once?", "a": "The free plan handles 10 images per batch, up to 10 MB each. Pro removes the batch limit and allows 50 MB files for high-resolution shoots." }
+      {
+        "q": "What image size does Shopify recommend for products?",
+        "a": "2048 × 2048 pixels, square. Files must be under 20 MB and 20 megapixels, but for speed aim for under 500 KB each."
+      },
+      {
+        "q": "Does Shopify compress images automatically?",
+        "a": "Shopify's CDN resizes and converts to WebP on delivery, but it starts from the original you upload. Uploading a well-compressed 2048 px file gives better results and faster theme previews than uploading a 6 MB camera file."
+      },
+      {
+        "q": "Can I use this for Etsy or WooCommerce too?",
+        "a": "Yes. Etsy recommends at least 2000 px on the shortest side and WooCommerce works well with 1200–2048 px squares; the same Squish workflow applies, only the max dimension changes."
+      },
+      {
+        "q": "How many product photos can I compress at once?",
+        "a": "The free plan handles 10 images per batch, up to 10 MB each. Pro removes the batch limit and allows 50 MB files for high-resolution shoots."
+      }
     ],
     "query": ""
   },
@@ -212,10 +296,22 @@
       }
     ],
     "faq": [
-      { "q": "What size should a LinkedIn profile picture be?", "a": "A square between 400 × 400 and 800 × 800 px, under 8 MB. Around 100 KB as a JPEG is plenty." },
-      { "q": "Why does my LinkedIn photo look blurry?", "a": "Either the source was smaller than 400 px and got upscaled, or it was huge and LinkedIn downscaled it harshly. Resizing to 800 px at quality 85 before uploading fixes both." },
-      { "q": "Can I use a PNG for my profile photo?", "a": "Yes, LinkedIn accepts PNG. For a photograph, JPEG is much smaller with no visible difference; PNG only makes sense for logos or graphics." },
-      { "q": "Is my photo stored by the tool?", "a": "No. Squish processes the image locally in your browser and nothing is sent to or kept on a server." }
+      {
+        "q": "What size should a LinkedIn profile picture be?",
+        "a": "A square between 400 × 400 and 800 × 800 px, under 8 MB. Around 100 KB as a JPEG is plenty."
+      },
+      {
+        "q": "Why does my LinkedIn photo look blurry?",
+        "a": "Either the source was smaller than 400 px and got upscaled, or it was huge and LinkedIn downscaled it harshly. Resizing to 800 px at quality 85 before uploading fixes both."
+      },
+      {
+        "q": "Can I use a PNG for my profile photo?",
+        "a": "Yes, LinkedIn accepts PNG. For a photograph, JPEG is much smaller with no visible difference; PNG only makes sense for logos or graphics."
+      },
+      {
+        "q": "Is my photo stored by the tool?",
+        "a": "No. Squish processes the image locally in your browser and nothing is sent to or kept on a server."
+      }
     ],
     "query": ""
   }
