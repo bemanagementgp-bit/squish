@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reduzir o tamanho de imagens para WordPress antes do upload | Squish</title>
+  <meta name="description" content="Reduza o tamanho das imagens para WordPress antes do upload: comprima JPG, PNG e WebP, redimensione para a largura do seu tema e acelere seu site. Grátis, privado, sem plugin.">
+  <link rel="canonical" href="https://squish-tool.vercel.app/pt/reduce-image-size-for-wordpress">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://squish-tool.vercel.app/pt/reduce-image-size-for-wordpress">
+  <meta property="og:title" content="Reduzir o tamanho de imagens para WordPress antes do upload | Squish">
+  <meta property="og:description" content="Reduza o tamanho das imagens para WordPress antes do upload: comprima JPG, PNG e WebP, redimensione para a largura do seu tema e acelere seu site. Grátis, privado, sem plugin.">
+  <meta property="og:image" content="https://squish-tool.vercel.app/favicon.svg">
+  <meta property="og:site_name" content="Squish">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Reduzir o tamanho de imagens para WordPress antes do upload | Squish">
+  <meta name="twitter:description" content="Reduza o tamanho das imagens para WordPress antes do upload: comprima JPG, PNG e WebP, redimensione para a largura do seu tema e acelere seu site. Grátis, privado, sem plugin.">
+  <meta name="twitter:image" content="https://squish-tool.vercel.app/favicon.svg">
+  <meta name="theme-color" content="#050403">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Squish">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/config.js"></script>
+  <script src="/i18n.js"></script>
+  <script src="/consent.js"></script>
+  <script src="/monetize.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Reduzir o tamanho de imagens para WordPress antes do upload | Squish","description":"Reduza o tamanho das imagens para WordPress antes do upload: comprima JPG, PNG e WebP, redimensione para a largura do seu tema e acelere seu site. Grátis, privado, sem plugin.","url":"https://squish-tool.vercel.app/reduce-image-size-for-wordpress","isPartOf":{"@type":"WebSite","name":"Squish","url":"https://squish-tool.vercel.app/"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Squish","item":"https://squish-tool.vercel.app/"},{"@type":"ListItem","position":2,"name":"Reduzir o tamanho de imagens para WordPress","item":"https://squish-tool.vercel.app/reduce-image-size-for-wordpress"}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Qual é o tamanho máximo de imagem para o WordPress?","acceptedAnswer":{"@type":"Answer","text":"O limite de upload depende da hospedagem, muitas vezes 2–64 MB. Na prática, mantenha as imagens abaixo de 2560 px no lado maior e de 250 KB para o WordPress não criar uma cópia -scaled e as páginas carregarem rápido."}},{"@type":"Question","name":"Devo usar um plugin de compressão de imagens do WordPress em vez disso?","acceptedAnswer":{"@type":"Answer","text":"Plugins funcionam, mas usam o processador do seu servidor ou uma cota de API paga. Comprimir antes do upload com uma ferramenta grátis no navegador dá a você controle sobre cada imagem e deixa seu site mais leve."}},{"@type":"Question","name":"O WordPress suporta WebP?","acceptedAnswer":{"@type":"Answer","text":"Sim, desde o WordPress 5.8 você pode enviar arquivos WebP direto para a Biblioteca de Mídia e usá-los como JPEG ou PNG."}},{"@type":"Question","name":"Comprimir vai prejudicar a qualidade das imagens no meu blog?","acceptedAnswer":{"@type":"Answer","text":"Com qualidade 75 e dimensões razoáveis, a diferença não é visível no layout da página. Você pode comparar o antes e o depois lado a lado no Squish antes de baixar."}}]}</script>
+  <!-- hreflang:start -->
+  <meta name="bm-langs" content="en,es,pt,fr,de,it">
+  <link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/reduce-image-size-for-wordpress">
+  <link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/reduce-image-size-for-wordpress">
+  <link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/reduce-image-size-for-wordpress">
+  <link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/reduce-image-size-for-wordpress">
+  <link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/reduce-image-size-for-wordpress">
+  <link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/reduce-image-size-for-wordpress">
+  <link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/reduce-image-size-for-wordpress">
+  <!-- hreflang:end -->
+  <meta property="og:locale" content="pt_BR">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <div class="navbar">
+    <a class="brand" href="/pt/" aria-label="Início do Squish">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-text"><span class="brand-name">Squish</span><span class="brand-desc">Compressor de imagens</span></span>
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <details class="more-tools">
+        <summary class="btn btn-ghost btn-sm" aria-label="Mais ferramentas"><span class="mt-label">Mais ferramentas</span> ▾</summary>
+        <div class="menu">
+          <a href="https://quickinvoice-tool.vercel.app"><span class="mi">Q</span>QuickInvoice<small>Faturas</small></a>
+          <a href="https://ratecalc-tool.vercel.app"><span class="mi">R</span>RateCalc<small>Preços para freelancers</small></a>
+          <a href="https://qrforge-tool.vercel.app"><span class="mi">Q</span>QRForge<small>QR codes</small></a>
+          <a href="https://squish-tool.vercel.app" class="current"><span class="mi">S</span>Squish<small>Compressor de imagens</small></a>
+          <a href="https://growthcalc-tool.vercel.app"><span class="mi">G</span>GrowthCalc<small>Juros compostos</small></a>
+          <a href="https://subnetkit-tool.vercel.app"><span class="mi">N</span>SubnetKit<small>Sub-redes IP</small></a>
+          <a href="https://shotstudio-tool.vercel.app"><span class="mi">S</span>Screenshot Studio<small>Mockups de capturas de tela</small></a>
+          <a href="https://mockuplab-tool.vercel.app"><span class="mi">M</span>Social Mockup Lab<small>Mockups de chats e posts</small></a>
+          <a href="https://carouselmaker-tool.vercel.app"><span class="mi">C</span>Carousel Maker<small>Slides de carrossel</small></a>
+          <a href="https://creativeresize-tool.vercel.app"><span class="mi">R</span>Creative Resize<small>Formatos para redes sociais</small></a>
+          <a href="https://framelab-tool.vercel.app"><span class="mi">F</span>Frame Lab<small>Molduras e mockups de fotos</small></a>
+          <a href="https://giveaway-tool.vercel.app"><span class="mi">G</span>Giveaway Picker<small>Sorteios no Instagram</small></a>
+          <a href="https://iplookup-tool.vercel.app"><span class="mi">I</span>IP Lookup<small>Consulta de IP</small></a>
+          <a href="https://sizeconverter-tool.vercel.app"><span class="mi">Z</span>Size Converter<small>Redimensionador de imagens e vídeos</small></a>
+        </div>
+      </details>
+      <span class="sep" aria-hidden="true"></span>
+      <span class="brand-by">por <b>Be Management</b></span>
+      <button class="btn btn-sm hidden" id="installBtn" data-action="install" title="Instale esta ferramenta como app">⤓ Instalar</button>
+      <span class="lang-switch"><select id="langSelect" aria-label="Language" translate="no"><option value="en">EN</option></select></span>
+      <button class="btn btn-primary btn-sm" data-action="pro" data-arg="nav">Pro</button>
+      <button class="btn icon-btn" data-action="theme" aria-label="Alternar tema">◐</button>
+    </nav>
+    </div>
+  </div>
+</header>
+
+<section class="hero container">
+  <span class="eyebrow"><span class="dot" aria-hidden="true"></span>Be Management Tools · Imagens · WordPress</span>
+  <h1>Reduzir o tamanho de imagens para WordPress</h1>
+  <p class="tagline">Otimize as fotos antes que cheguem à Biblioteca de Mídia para o WordPress gerar variações pequenas e rápidas em vez de cópias de um original enorme.</p>
+  <div class="badges">
+  <span class="badge">100% grátis</span>
+  <span class="badge">Sem cadastro</span>
+  <span class="badge">Funciona no seu navegador</span>
+  <span class="badge">Sem marca d'água</span>
+  <span class="badge">Remove metadados EXIF</span>
+  </div>
+</section>
+
+<main class="container">
+  <div class="tool-layout">
+    <div class="tool-main">
+
+      <!-- Drop zone -->
+      <div class="card">
+        <div class="dropzone" id="dropZone" role="button" tabindex="0" aria-label="Solte as imagens aqui ou pressione Enter para escolher arquivos">
+          <input type="file" id="fileInput" accept="image/*" multiple class="sr-only" aria-label="Escolher imagens">
+          <div class="dz-icon" aria-hidden="true">🗜️</div>
+          <div class="dz-title">Arraste e solte as imagens aqui</div>
+          <div class="dz-sub">ou <button type="button" class="link-btn" id="browseBtn">procurar arquivos</button> · cole da área de transferência (Ctrl+V)</div>
+          <div class="dz-meta" id="limitsHint">Grátis: até 10 imagens por lote, 10 MB cada · JPG, PNG, WebP</div>
+        </div>
+        <div class="row dz-actions">
+          <button type="button" class="btn btn-sm" id="sampleBtn">Experimente com uma imagem de exemplo</button>
+          <span class="hint">Nada é enviado. Tudo acontece no seu dispositivo.</span>
+        </div>
+      </div>
+
+      <!-- Settings -->
+      <div class="card settings-card">
+        <div class="row-between">
+          <h2 class="card-title">Configurações de compressão</h2>
+          <button type="button" class="btn btn-sm btn-ghost" id="resetSettingsBtn">Redefinir</button>
+        </div>
+        <div class="grid-2">
+          <div class="field">
+            <label for="quality">Qualidade <span class="qval" id="qualityVal">75</span></label>
+            <input type="range" id="quality" min="10" max="100" step="1" value="75" aria-describedby="qualityHint">
+            <div class="hint" id="qualityHint">75–85 é o ponto ideal para fotos. Ignorado na saída PNG (sem perdas).</div>
+          </div>
+          <div class="field">
+            <label for="format">Formato de saída</label>
+            <select id="format">
+              <option value="keep">Manter original</option>
+              <option value="image/jpeg">JPEG</option>
+              <option value="image/png">PNG</option>
+              <option value="image/webp">WebP</option>
+            </select>
+            <div class="hint" id="formatHint">O WebP é ~30% menor que o JPEG com a mesma qualidade.</div>
+          </div>
+          <div class="field">
+            <label for="maxDim">Redimensionar – largura/altura máx.</label>
+            <select id="maxDim">
+              <option value="0">Sem redimensionar</option>
+              <option value="640">640 px</option>
+              <option value="1080">1080 px (Instagram)</option>
+              <option value="1280">1280 px</option>
+              <option value="1600">1600 px</option>
+              <option value="1920" selected>1920 px (Full HD)</option>
+              <option value="2560">2560 px</option>
+              <option value="4096">4096 px</option>
+            </select>
+            <div class="hint">O lado maior é limitado; as imagens nunca são ampliadas.</div>
+          </div>
+          <div class="field">
+            <label class="checkbox keep-label" for="keepSmaller">
+              <input type="checkbox" id="keepSmaller" checked> Manter o original se o resultado for maior
+            </label>
+            <div class="hint">Arquivos já otimizados ficam como estão em vez de aumentar.</div>
+          </div>
+        </div>
+
+        <div class="pro-settings">
+          <div class="field">
+            <label class="checkbox" for="targetMode">
+              <input type="checkbox" id="targetMode"> Tamanho de arquivo desejado <span class="pro-badge pro-only-badge">PRO</span>
+            </label>
+            <div class="row" id="targetRow">
+              <input type="number" id="targetKB" min="5" max="50000" step="5" value="200" class="target-input" aria-label="Tamanho desejado em kilobytes">
+              <span class="hint target-hint">KB – a qualidade é reduzida automaticamente até cada imagem caber.</span>
+            </div>
+          </div>
+          <div class="field">
+            <label for="filenamePattern">Padrão do nome dos arquivos de saída <span class="pro-badge pro-only-badge">PRO</span></label>
+            <input type="text" id="filenamePattern" value="{name}-compressed.{ext}" placeholder="{name}-compressed.{ext}" autocomplete="off">
+            <div class="hint" id="patternHint">Use {name}, {ext}, {index}, {w}, {h}. O plano grátis usa {name}-min.{ext}.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Results -->
+      <div class="card results-card hidden" id="resultsCard">
+        <div class="row-between results-head">
+          <h2 class="card-title">Resultados <span class="count-pill" id="countPill">0</span></h2>
+          <div class="row">
+            <button type="button" class="btn btn-sm" id="recompressBtn" title="Reprocessar com as configurações atuais">↻ Recomprimir</button>
+            <button type="button" class="btn btn-sm btn-danger" id="clearBtn">Limpar tudo</button>
+          </div>
+        </div>
+
+        <div class="summary" id="summary">
+          <div class="stat"><div class="k">Original</div><div class="v" id="sumOriginal">0 KB</div></div>
+          <div class="stat"><div class="k">Comprimida</div><div class="v" id="sumCompressed">0 KB</div></div>
+          <div class="stat"><div class="k">Economia</div><div class="v saved" id="sumSaved">0%</div></div>
+        </div>
+        <div class="progress hidden" id="progress"><div class="progress-bar" id="progressBar"></div></div>
+
+        <ul class="results" id="results" aria-live="polite"></ul>
+
+        <div class="row download-row">
+          <button type="button" class="btn btn-primary" id="downloadAllBtn">⬇ Baixar tudo</button>
+          <button type="button" class="btn" id="downloadZipBtn">🗜 Baixar ZIP <span class="pro-badge pro-only-badge">PRO</span></button>
+          <span class="hint" id="downloadHint">Clique em um resultado para comparar antes/depois.</span>
+        </div>
+      </div>
+
+      <div class="ad-slot horizontal" data-slot="below-tool"></div>
+    </div>
+
+    <aside class="sidebar">
+      <div class="ad-slot" data-slot="sidebar-1"></div>
+      <div class="card pro-card">
+        <h3>Seja Pro <span class="pro-badge">VITALÍCIO</span></h3>
+        <ul>
+          <li>Imagens ilimitadas por lote</li>
+          <li>Arquivos de até 50 MB</li>
+          <li>Baixe tudo em um ZIP</li>
+          <li>Tamanho de arquivo desejado e nomes de arquivo personalizados</li>
+        </ul>
+        <button class="btn btn-primary btn-block" data-action="pro" data-arg="sidebar">Seja Pro – <span data-pro-price>$9</span> pagamento único</button>
+      </div>
+      <div class="card lead-card" id="leadCard" hidden>
+        <h3>Sites mais rápidos, imagens mais leves</h3>
+        <p class="hint">Dicas de desempenho web, guias de formatos de imagem e novas ferramentas grátis. Sem spam.</p>
+        <form class="lead-form" data-action="newsletter">
+          <input type="email" name="email" required placeholder="voce@email.com" aria-label="Endereço de e-mail" autocomplete="email">
+          <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none" aria-hidden="true">
+          <button class="btn btn-primary" type="submit">Assinar</button>
+        </form>
+        <p class="hint tiny">Sem spam. Cancele quando quiser.</p>
+      </div>
+      <div class="ad-slot" data-slot="sidebar-2"></div>
+    </aside>
+  </div>
+</main>
+
+<!-- uses:start -->
+<section class="uses container" id="popular-uses" aria-labelledby="usesTitle">
+  <h2 id="usesTitle">Mais formas de usar o Squish</h2>
+  <ul class="uses-grid">
+      <li><a href="/pt/compress-images-for-website">Comprimir imagens para o seu site</a></li>
+      <li><a href="/pt/compress-image-for-email-attachment">Comprimir uma imagem para e-mail</a></li>
+      <li><a href="/pt/compress-photos-for-instagram">Comprimir fotos para o Instagram sem perder qualidade</a></li>
+      <li><a href="/pt/reduce-image-size-for-wordpress" class="current" aria-current="page">Reduzir o tamanho de imagens para WordPress</a></li>
+      <li><a href="/pt/compress-png-online">Comprimir PNG online</a></li>
+      <li><a href="/pt/convert-png-to-webp">Converter PNG em WebP</a></li>
+      <li><a href="/pt/compress-images-for-shopify">Comprimir imagens para Shopify</a></li>
+      <li><a href="/pt/resize-image-for-linkedin-profile">Redimensionar uma imagem para a foto de perfil do LinkedIn</a></li>
+  </ul>
+</section>
+<!-- uses:end -->
+
+<section class="content container">
+  <p class="breadcrumb"><a href="/pt/">Squish</a> › Reduzir o tamanho de imagens para WordPress</p>
+  <h2>Reduzir o tamanho de imagens para WordPress: como funciona</h2>
+  <p>O WordPress faz várias cópias de cada imagem que você envia: miniatura (150 px), média (300 px), grande (1024 px) e, desde a versão 5.3, uma versão reduzida limitada a 2560 px. Mas ele não comprime bem o original, e os temas muitas vezes exibem esse original em layouts de largura total.</p><p>Passar as imagens pelo Squish antes resolve isso na origem. É grátis, roda no seu navegador e não no seu plano de hospedagem, e dispensa plugin de otimização, cron job ou chave de API.</p>
+  <h2>Tamanhos que combinam com temas do WordPress</h2>
+  <p>Envie na largura que seu tema realmente usa, não na resolução nativa da câmera:</p><ul><li><strong>Imagens em destaque e de capa:</strong> 1920 px de largura, 150–250 KB.</li><li><strong>Imagens dentro dos posts:</strong> 1200 px de largura, 60–120 KB. O tamanho <code>large</code> (1024 px) que o WordPress gera ficará quase tão nítido quanto o original.</li><li><strong>Fotos de produtos no WooCommerce:</strong> quadradas, de 1200 × 1200 px, abaixo de 150 KB.</li></ul><p>Ficar abaixo de 2560 px também evita que a cópia <code>-scaled</code> seja criada, o que mantém sua pasta de uploads organizada e seus backups menores. Defina <em>Dimensão máxima</em> no Squish de acordo e a qualidade como 75.</p>
+  <h2>WebP, limites de upload e metadados</h2>
+  <p>O WordPress aceita uploads de WebP na Biblioteca de Mídia desde a versão 5.8, então você pode converter para WebP no Squish e dispensar de vez os plugins de conversão de formato. Os arquivos costumam ser 25–35% menores que JPEG com a mesma qualidade visual e todo navegador moderno os exibe.</p><p>Hospedagens compartilhadas costumam limitar os uploads a 2–8 MB por arquivo por meio de <code>upload_max_filesize</code>. Uma imagem já comprimida nunca chega perto disso. A saída do Squish também remove as tags EXIF e de GPS, que o WordPress armazenaria, e nomeia os arquivos como <code>name-min.jpg</code> para que originais e versões otimizadas nunca se confundam.</p>
+  <h2>Perguntas frequentes</h2>
+  <div class="faq">
+    <details><summary>Qual é o tamanho máximo de imagem para o WordPress?</summary><p>O limite de upload depende da hospedagem, muitas vezes 2–64 MB. Na prática, mantenha as imagens abaixo de 2560 px no lado maior e de 250 KB para o WordPress não criar uma cópia -scaled e as páginas carregarem rápido.</p></details>
+    <details><summary>Devo usar um plugin de compressão de imagens do WordPress em vez disso?</summary><p>Plugins funcionam, mas usam o processador do seu servidor ou uma cota de API paga. Comprimir antes do upload com uma ferramenta grátis no navegador dá a você controle sobre cada imagem e deixa seu site mais leve.</p></details>
+    <details><summary>O WordPress suporta WebP?</summary><p>Sim, desde o WordPress 5.8 você pode enviar arquivos WebP direto para a Biblioteca de Mídia e usá-los como JPEG ou PNG.</p></details>
+    <details><summary>Comprimir vai prejudicar a qualidade das imagens no meu blog?</summary><p>Com qualidade 75 e dimensões razoáveis, a diferença não é visível no layout da página. Você pode comparar o antes e o depois lado a lado no Squish antes de baixar.</p></details>
+  </div>
+  <p class="back-guide">Procurando o guia completo, dicas e o FAQ completo? Leia a <a href="/pt/">página principal do Squish</a>.</p>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <span class="brand-mark lg" aria-hidden="true"></span>
+      <div>
+        <strong>Be Management Tools</strong>
+        <p>Uma coleção de ferramentas grátis e privadas que rodam inteiramente no seu navegador. Squish é o compressor de imagens da família, criado e mantido pela Be Management.</p>
+      </div>
+    </div>
+    <div class="footer-tools">
+      <strong>Mais ferramentas grátis</strong>
+      <ul>
+        <li><a href="https://quickinvoice-tool.vercel.app">QuickInvoice · Faturas</a></li>
+        <li><a href="https://ratecalc-tool.vercel.app">RateCalc · Preços para freelancers</a></li>
+        <li><a href="https://qrforge-tool.vercel.app">QRForge · QR codes</a></li>
+        <li><a href="https://squish-tool.vercel.app" class="current">Squish · Compressor de imagens</a></li>
+        <li><a href="https://growthcalc-tool.vercel.app">GrowthCalc · Juros compostos</a></li>
+        <li><a href="https://subnetkit-tool.vercel.app">SubnetKit · Sub-redes IP</a></li>
+        <li><a href="https://shotstudio-tool.vercel.app">Screenshot Studio · Mockups de capturas de tela</a></li>
+        <li><a href="https://mockuplab-tool.vercel.app">Social Mockup Lab · Mockups de chat e post</a></li>
+        <li><a href="https://carouselmaker-tool.vercel.app">Carousel Maker · Slides de carrossel</a></li>
+        <li><a href="https://creativeresize-tool.vercel.app">Creative Resize · Formatos para redes sociais</a></li>
+        <li><a href="https://framelab-tool.vercel.app">Frame Lab · Molduras e mockups de fotos</a></li>
+        <li><a href="https://giveaway-tool.vercel.app">Giveaway Picker · Sorteios no Instagram</a></li>
+        <li><a href="https://iplookup-tool.vercel.app">IP Lookup · Consulta de IP</a></li>
+        <li><a href="https://sizeconverter-tool.vercel.app">Size Converter · Redimensionador de imagens e vídeos</a></li>
+      </ul>
+    </div>
+    <div class="footer-meta">
+      <span>© <span data-year></span> Be Management · Squish. As imagens nunca saem do seu dispositivo.</span>
+      <span><a href="/pt/privacy" data-i18n-href="/pt/privacy">Privacidade</a> · <a href="/pt/terms" data-i18n-href="/pt/terms">Termos</a> · <a href="#" data-action="cookie-settings">Configurações de cookies</a> · <a href="https://www.bemanagement.pro" rel="noopener">bemanagement.pro</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- Before/after compare modal -->
+<div class="modal compare-modal" id="compareModal" role="dialog" aria-modal="true" aria-labelledby="compareTitle">
+  <div class="card">
+    <button class="btn btn-sm close" id="compareClose" aria-label="Fechar comparação">✕</button>
+    <h3 id="compareTitle">Antes / depois</h3>
+    <div class="compare-meta" id="compareMeta"></div>
+    <div class="compare-stage" id="compareStage">
+      <img id="compareOriginal" alt="Imagem original">
+      <img id="compareCompressed" alt="Imagem comprimida">
+      <div class="compare-handle" id="compareHandle" aria-hidden="true"></div>
+      <span class="compare-label left">Original</span>
+      <span class="compare-label right">Comprimida</span>
+    </div>
+    <label for="compareSlider" class="sr-only">Revelar comprimida vs original</label>
+    <input type="range" id="compareSlider" min="0" max="100" value="50" step="0.5">
+  </div>
+</div>
+
+<!-- Pro modal -->
+<div class="modal" id="proModal" role="dialog" aria-modal="true">
+  <div class="card">
+    <button class="btn btn-sm close" data-action="close-pro">✕</button>
+    <h3>Faça upgrade para o Squish Pro <span class="pro-badge">VITALÍCIO</span></h3>
+    <div class="price"><span id="proPrice"></span> <small>pagamento único</small></div>
+    <ul>
+      <li>Lotes ilimitados</li>
+      <li>50 MB por arquivo</li>
+      <li>Baixar como ZIP</li>
+      <li>Modo de tamanho de arquivo desejado</li>
+      <li>Nomes de arquivo personalizados</li>
+      <li>Atualizações vitalícias</li>
+    </ul>
+    <button class="btn btn-primary btn-block" data-action="checkout">Seja Pro</button>
+    <p class="hint" style="margin-top:12px">Já comprou? <a href="#" data-action="toggle-license">Digite a chave de licença</a></p>
+    <div class="row hidden" id="licenseRow"><input id="licenseKey" placeholder="Chave de licença"><button class="btn" data-action="activate-license">Ativar</button></div>
+  </div>
+</div>
+<script src="/app.js"></script>
+</body>
+</html>

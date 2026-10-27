@@ -1,14 +1,597 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://squish-tool.vercel.app/</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://squish-tool.vercel.app/compress-images-for-website</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://squish-tool.vercel.app/compress-image-for-email-attachment</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://squish-tool.vercel.app/compress-photos-for-instagram</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://squish-tool.vercel.app/reduce-image-size-for-wordpress</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://squish-tool.vercel.app/compress-png-online</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://squish-tool.vercel.app/convert-png-to-webp</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://squish-tool.vercel.app/compress-images-for-shopify</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://squish-tool.vercel.app/resize-image-for-linkedin-profile</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://squish-tool.vercel.app/privacy</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://squish-tool.vercel.app/terms</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://squish-tool.vercel.app/compress-image-for-email-attachment</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/compress-image-for-email-attachment"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/es/compress-image-for-email-attachment</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/compress-image-for-email-attachment"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/pt/compress-image-for-email-attachment</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/compress-image-for-email-attachment"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/fr/compress-image-for-email-attachment</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/compress-image-for-email-attachment"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/de/compress-image-for-email-attachment</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/compress-image-for-email-attachment"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/it/compress-image-for-email-attachment</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/compress-image-for-email-attachment"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/compress-image-for-email-attachment"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/compress-images-for-shopify</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/compress-images-for-shopify"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/es/compress-images-for-shopify</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/compress-images-for-shopify"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/pt/compress-images-for-shopify</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/compress-images-for-shopify"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/fr/compress-images-for-shopify</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/compress-images-for-shopify"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/de/compress-images-for-shopify</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/compress-images-for-shopify"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/it/compress-images-for-shopify</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/compress-images-for-shopify"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/compress-images-for-shopify"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/compress-images-for-website</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/compress-images-for-website"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/es/compress-images-for-website</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/compress-images-for-website"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/pt/compress-images-for-website</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/compress-images-for-website"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/fr/compress-images-for-website</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/compress-images-for-website"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/de/compress-images-for-website</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/compress-images-for-website"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/it/compress-images-for-website</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/compress-images-for-website"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/compress-images-for-website"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/compress-photos-for-instagram</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/compress-photos-for-instagram"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/es/compress-photos-for-instagram</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/compress-photos-for-instagram"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/pt/compress-photos-for-instagram</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/compress-photos-for-instagram"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/fr/compress-photos-for-instagram</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/compress-photos-for-instagram"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/de/compress-photos-for-instagram</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/compress-photos-for-instagram"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/it/compress-photos-for-instagram</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/compress-photos-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/compress-photos-for-instagram"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/compress-png-online</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/compress-png-online"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/es/compress-png-online</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/compress-png-online"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/pt/compress-png-online</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/compress-png-online"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/fr/compress-png-online</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/compress-png-online"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/de/compress-png-online</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/compress-png-online"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/it/compress-png-online</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/compress-png-online"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/compress-png-online"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/convert-png-to-webp</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/convert-png-to-webp"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/es/convert-png-to-webp</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/convert-png-to-webp"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/pt/convert-png-to-webp</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/convert-png-to-webp"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/fr/convert-png-to-webp</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/convert-png-to-webp"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/de/convert-png-to-webp</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/convert-png-to-webp"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/it/convert-png-to-webp</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/convert-png-to-webp"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/</loc><lastmod>2026-10-27</lastmod><priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/es/</loc><lastmod>2026-10-27</lastmod><priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/pt/</loc><lastmod>2026-10-27</lastmod><priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/fr/</loc><lastmod>2026-10-27</lastmod><priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/de/</loc><lastmod>2026-10-27</lastmod><priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/it/</loc><lastmod>2026-10-27</lastmod><priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/privacy</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/privacy"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/es/privacy</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/privacy"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/pt/privacy</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/privacy"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/fr/privacy</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/privacy"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/de/privacy</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/privacy"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/it/privacy</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/privacy"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/reduce-image-size-for-wordpress</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/reduce-image-size-for-wordpress"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/es/reduce-image-size-for-wordpress</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/reduce-image-size-for-wordpress"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/pt/reduce-image-size-for-wordpress</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/reduce-image-size-for-wordpress"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/fr/reduce-image-size-for-wordpress</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/reduce-image-size-for-wordpress"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/de/reduce-image-size-for-wordpress</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/reduce-image-size-for-wordpress"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/it/reduce-image-size-for-wordpress</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/reduce-image-size-for-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/reduce-image-size-for-wordpress"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/resize-image-for-linkedin-profile</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/resize-image-for-linkedin-profile"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/es/resize-image-for-linkedin-profile</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/resize-image-for-linkedin-profile"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/pt/resize-image-for-linkedin-profile</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/resize-image-for-linkedin-profile"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/fr/resize-image-for-linkedin-profile</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/resize-image-for-linkedin-profile"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/de/resize-image-for-linkedin-profile</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/resize-image-for-linkedin-profile"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/it/resize-image-for-linkedin-profile</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/resize-image-for-linkedin-profile"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/resize-image-for-linkedin-profile"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/terms</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/terms"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/es/terms</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/terms"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/pt/terms</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/terms"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/fr/terms</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/terms"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/de/terms</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/terms"/>
+  </url>
+  <url><loc>https://squish-tool.vercel.app/it/terms</loc><lastmod>2026-10-27</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/terms"/>
+  </url>
 </urlset>

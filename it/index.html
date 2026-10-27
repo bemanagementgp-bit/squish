@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Comprimi immagini online gratis – Compressore JPG, PNG, WebP (senza caricamento) | Squish</title>
+  <meta name="description" content="Comprimi immagini JPG, PNG e WebP online gratis: fino all'80% più leggere senza perdita di qualità visibile. Funziona nel tuo browser: nessun caricamento, nessuna registrazione, nessuna filigrana.">
+  <link rel="canonical" href="https://squish-tool.vercel.app/it/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://squish-tool.vercel.app/it/">
+  <meta property="og:title" content="Comprimi immagini online gratis – JPG, PNG, WebP (senza caricamento) | Squish">
+  <meta property="og:description" content="Compressore di immagini gratuito nel browser. Riduci il peso di JPG, PNG e WebP senza caricare nulla. Comprimi in batch, ridimensiona e converti in pochi secondi.">
+  <meta property="og:image" content="https://squish-tool.vercel.app/favicon.svg">
+  <meta property="og:site_name" content="Squish">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Comprimi immagini online gratis – JPG, PNG, WebP (senza caricamento) | Squish">
+  <meta name="twitter:description" content="Compressore di immagini gratuito nel browser. Riduci il peso di JPG, PNG e WebP senza caricare nulla.">
+  <meta name="twitter:image" content="https://squish-tool.vercel.app/favicon.svg">
+  <meta name="theme-color" content="#050403">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Squish">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Squish – Compressore di immagini online gratis","url":"https://squish-tool.vercel.app/","applicationCategory":"MultimediaApplication","operatingSystem":"Any (web browser)","browserRequirements":"Requires JavaScript","description":"Comprimi immagini JPG, PNG e WebP online gratis. I file vengono elaborati in locale nel tuo browser e non vengono mai caricati.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"featureList":["Comprimi immagini JPG, PNG e WebP","Compressione in batch con trascinamento","Ridimensiona a una larghezza o altezza massima","Converti tra JPEG, PNG e WebP","Cursore di confronto prima/dopo","100% privato – nessun caricamento"]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Squish è davvero gratis?","acceptedAnswer":{"@type":"Answer","text":"Sì. Comprimere, ridimensionare e convertire immagini è completamente gratuito, senza registrazione e senza filigrana. Puoi elaborare gratis fino a 10 immagini (10 MB ciascuna) per batch. Squish Pro è un upgrade opzionale una tantum che aggiunge batch illimitati, file da 50 MB, download ZIP, modalità dimensione obiettivo e nomi file personalizzati."}},{"@type":"Question","name":"Le mie immagini vengono caricate su un server?","acceptedAnswer":{"@type":"Answer","text":"No. Squish comprime le immagini interamente nel tuo browser tramite la Canvas API. I tuoi file non lasciano mai il dispositivo, non viene salvato nulla e lo strumento funziona anche offline una volta caricata la pagina."}},{"@type":"Question","name":"Quali formati di immagine sono supportati?","acceptedAnswer":{"@type":"Answer","text":"Puoi comprimere JPG/JPEG, PNG e WebP e convertire tra questi formati. I file GIF, BMP e SVG possono essere aperti e ricodificati in PNG, JPEG o WebP. Le foto HEIC/HEIF degli iPhone non sono supportate dai browser, quindi esportale prima in JPEG."}},{"@type":"Question","name":"La compressione riduce la qualità dell'immagine?","acceptedAnswer":{"@type":"Answer","text":"La compressione JPEG e WebP è con perdita, ma alla qualità predefinita di 75 la differenza è praticamente invisibile mentre il file è di solito più leggero del 60–80%. L'output PNG è senza perdita, quindi i pixel restano identici. Usa il cursore prima/dopo per controllare qualsiasi immagine prima di scaricarla."}},{"@type":"Question","name":"Qual è il peso massimo dei file?","acceptedAnswer":{"@type":"Answer","text":"Gli utenti gratuiti possono comprimere immagini fino a 10 MB ciascuna. Squish Pro alza il limite a 50 MB per file. Poiché l'elaborazione avviene sul tuo dispositivo, le immagini molto grandi dipendono anche dalla memoria disponibile nel browser."}},{"@type":"Question","name":"Posso comprimere molte immagini insieme?","acceptedAnswer":{"@type":"Answer","text":"Sì. Trascina un'intera cartella di immagini o seleziona più file. Squish elabora tre immagini in parallelo e mostra un riepilogo dello spazio totale risparmiato. I batch gratuiti sono limitati a 10 immagini; Pro elimina il limite e ti permette di scaricare tutto in un unico ZIP."}}]}</script>
+  <script src="/config.js"></script>
+  <script src="/i18n.js"></script>
+  <script src="/consent.js"></script>
+  <script src="/monetize.js"></script>
+  <!-- hreflang:start -->
+  <meta name="bm-langs" content="en,es,pt,fr,de,it">
+  <link rel="alternate" hreflang="en" href="https://squish-tool.vercel.app/">
+  <link rel="alternate" hreflang="es" href="https://squish-tool.vercel.app/es/">
+  <link rel="alternate" hreflang="pt" href="https://squish-tool.vercel.app/pt/">
+  <link rel="alternate" hreflang="fr" href="https://squish-tool.vercel.app/fr/">
+  <link rel="alternate" hreflang="de" href="https://squish-tool.vercel.app/de/">
+  <link rel="alternate" hreflang="it" href="https://squish-tool.vercel.app/it/">
+  <link rel="alternate" hreflang="x-default" href="https://squish-tool.vercel.app/">
+  <!-- hreflang:end -->
+  <meta property="og:locale" content="it_IT">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <div class="navbar">
+    <a class="brand" href="/it/" aria-label="Home di Squish">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-text"><span class="brand-name">Squish</span><span class="brand-desc">Compressore di immagini</span></span>
+    </a>
+    <nav class="nav" aria-label="Principale">
+      <details class="more-tools">
+        <summary class="btn btn-ghost btn-sm" aria-label="Altri strumenti"><span class="mt-label">Altri strumenti</span> ▾</summary>
+        <div class="menu">
+          <a href="https://quickinvoice-tool.vercel.app"><span class="mi">Q</span>QuickInvoice<small>Fatture</small></a>
+          <a href="https://ratecalc-tool.vercel.app"><span class="mi">R</span>RateCalc<small>Tariffe freelance</small></a>
+          <a href="https://qrforge-tool.vercel.app"><span class="mi">Q</span>QRForge<small>Codici QR</small></a>
+          <a href="https://squish-tool.vercel.app" class="current"><span class="mi">S</span>Squish<small>Compressore di immagini</small></a>
+          <a href="https://growthcalc-tool.vercel.app"><span class="mi">G</span>GrowthCalc<small>Interesse composto</small></a>
+          <a href="https://subnetkit-tool.vercel.app"><span class="mi">N</span>SubnetKit<small>Subnet IP</small></a>
+          <a href="https://shotstudio-tool.vercel.app"><span class="mi">S</span>Screenshot Studio<small>Mockup di screenshot</small></a>
+          <a href="https://mockuplab-tool.vercel.app"><span class="mi">M</span>Social Mockup Lab<small>Mockup di chat e post</small></a>
+          <a href="https://carouselmaker-tool.vercel.app"><span class="mi">C</span>Carousel Maker<small>Slide per caroselli</small></a>
+          <a href="https://creativeresize-tool.vercel.app"><span class="mi">R</span>Creative Resize<small>Formati social</small></a>
+          <a href="https://framelab-tool.vercel.app"><span class="mi">F</span>Frame Lab<small>Cornici e mockup per foto</small></a>
+          <a href="https://giveaway-tool.vercel.app"><span class="mi">G</span>Giveaway Picker<small>Giveaway su Instagram</small></a>
+          <a href="https://iplookup-tool.vercel.app"><span class="mi">I</span>IP Lookup<small>Ricerca IP</small></a>
+          <a href="https://sizeconverter-tool.vercel.app"><span class="mi">Z</span>Size Converter<small>Ridimensiona immagini e video</small></a>
+        </div>
+      </details>
+      <span class="sep" aria-hidden="true"></span>
+      <span class="brand-by">di <b>Be Management</b></span>
+      <button class="btn btn-sm hidden" id="installBtn" data-action="install" title="Installa questo strumento come app">⤓ Installa</button>
+      <span class="lang-switch"><select id="langSelect" aria-label="Language" translate="no"><option value="en">EN</option></select></span>
+      <button class="btn btn-primary btn-sm" data-action="pro" data-arg="nav">Pro</button>
+      <button class="btn icon-btn" data-action="theme" aria-label="Cambia tema">◐</button>
+    </nav>
+    </div>
+  </div>
+</header>
+
+<section class="hero container">
+  <span class="eyebrow"><span class="dot" aria-hidden="true"></span>Be Management Tools · Immagini</span>
+  <h1>Comprimi immagini online</h1>
+  <p class="tagline">Trascina i tuoi file JPG, PNG o WebP e rendili fino al 90% più leggeri senza perdita di qualità visibile. Tutto avviene nel tuo browser, non viene caricato nulla.</p>
+  <div class="badges">
+  <span class="badge">100% gratis</span>
+  <span class="badge">Nessuna registrazione</span>
+  <span class="badge">Funziona nel tuo browser</span>
+  <span class="badge">Nessuna filigrana</span>
+  <span class="badge">Rimuove i metadati EXIF</span>
+  </div>
+</section>
+
+<main class="container">
+  <div class="tool-layout">
+    <div class="tool-main">
+
+      <!-- Drop zone -->
+      <div class="card">
+        <div class="dropzone" id="dropZone" role="button" tabindex="0" aria-label="Trascina qui le immagini o premi Enter per scegliere i file">
+          <input type="file" id="fileInput" accept="image/*" multiple class="sr-only" aria-label="Scegli le immagini">
+          <div class="dz-icon" aria-hidden="true">🗜️</div>
+          <div class="dz-title">Trascina qui le immagini</div>
+          <div class="dz-sub">o <button type="button" class="link-btn" id="browseBtn">sfoglia i file</button> · incolla dagli appunti (Ctrl+V)</div>
+          <div class="dz-meta" id="limitsHint">Gratis: fino a 10 immagini per batch, 10 MB ciascuna · JPG, PNG, WebP</div>
+        </div>
+        <div class="row dz-actions">
+          <button type="button" class="btn btn-sm" id="sampleBtn">Prova con un'immagine di esempio</button>
+          <span class="hint">Non viene caricato nulla. Tutto avviene sul tuo dispositivo.</span>
+        </div>
+      </div>
+
+      <!-- Settings -->
+      <div class="card settings-card">
+        <div class="row-between">
+          <h2 class="card-title">Impostazioni di compressione</h2>
+          <button type="button" class="btn btn-sm btn-ghost" id="resetSettingsBtn">Ripristina</button>
+        </div>
+        <div class="grid-2">
+          <div class="field">
+            <label for="quality">Qualità <span class="qval" id="qualityVal">75</span></label>
+            <input type="range" id="quality" min="10" max="100" step="1" value="75" aria-describedby="qualityHint">
+            <div class="hint" id="qualityHint">75–85 è il punto ideale per le foto. Ignorato per l'output PNG (senza perdita).</div>
+          </div>
+          <div class="field">
+            <label for="format">Formato di output</label>
+            <select id="format">
+              <option value="keep">Mantieni l'originale</option>
+              <option value="image/jpeg">JPEG</option>
+              <option value="image/png">PNG</option>
+              <option value="image/webp">WebP</option>
+            </select>
+            <div class="hint" id="formatHint">WebP è circa il 30% più leggero di JPEG a parità di qualità.</div>
+          </div>
+          <div class="field">
+            <label for="maxDim">Ridimensiona – larghezza/altezza massima</label>
+            <select id="maxDim">
+              <option value="0">Nessun ridimensionamento</option>
+              <option value="640">640 px</option>
+              <option value="1080">1080 px (Instagram)</option>
+              <option value="1280">1280 px</option>
+              <option value="1600">1600 px</option>
+              <option value="1920" selected>1920 px (Full HD)</option>
+              <option value="2560">2560 px</option>
+              <option value="4096">4096 px</option>
+            </select>
+            <div class="hint">Il lato più lungo è limitato; le immagini non vengono mai ingrandite.</div>
+          </div>
+          <div class="field">
+            <label class="checkbox keep-label" for="keepSmaller">
+              <input type="checkbox" id="keepSmaller" checked> Mantieni l'originale se il risultato è più pesante
+            </label>
+            <div class="hint">I file già ottimizzati restano invariati invece di diventare più pesanti.</div>
+          </div>
+        </div>
+
+        <div class="pro-settings">
+          <div class="field">
+            <label class="checkbox" for="targetMode">
+              <input type="checkbox" id="targetMode"> Dimensione file obiettivo <span class="pro-badge pro-only-badge">PRO</span>
+            </label>
+            <div class="row" id="targetRow">
+              <input type="number" id="targetKB" min="5" max="50000" step="5" value="200" class="target-input" aria-label="Dimensione obiettivo in kilobyte">
+              <span class="hint target-hint">KB: la qualità viene abbassata automaticamente finché ogni immagine rientra.</span>
+            </div>
+          </div>
+          <div class="field">
+            <label for="filenamePattern">Schema del nome file in uscita <span class="pro-badge pro-only-badge">PRO</span></label>
+            <input type="text" id="filenamePattern" value="{name}-compressed.{ext}" placeholder="{name}-compressed.{ext}" autocomplete="off">
+            <div class="hint" id="patternHint">Usa {name}, {ext}, {index}, {w}, {h}. Il piano gratuito usa {name}-min.{ext}.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Results -->
+      <div class="card results-card hidden" id="resultsCard">
+        <div class="row-between results-head">
+          <h2 class="card-title">Risultati <span class="count-pill" id="countPill">0</span></h2>
+          <div class="row">
+            <button type="button" class="btn btn-sm" id="recompressBtn" title="Ripeti con le impostazioni attuali">↻ Ricomprimi</button>
+            <button type="button" class="btn btn-sm btn-danger" id="clearBtn">Cancella tutto</button>
+          </div>
+        </div>
+
+        <div class="summary" id="summary">
+          <div class="stat"><div class="k">Originale</div><div class="v" id="sumOriginal">0 KB</div></div>
+          <div class="stat"><div class="k">Compressa</div><div class="v" id="sumCompressed">0 KB</div></div>
+          <div class="stat"><div class="k">Risparmio</div><div class="v saved" id="sumSaved">0%</div></div>
+        </div>
+        <div class="progress hidden" id="progress"><div class="progress-bar" id="progressBar"></div></div>
+
+        <ul class="results" id="results" aria-live="polite"></ul>
+
+        <div class="row download-row">
+          <button type="button" class="btn btn-primary" id="downloadAllBtn">⬇ Scarica tutto</button>
+          <button type="button" class="btn" id="downloadZipBtn">🗜 Scarica ZIP <span class="pro-badge pro-only-badge">PRO</span></button>
+          <span class="hint" id="downloadHint">Fai clic su un risultato per confrontare prima e dopo.</span>
+        </div>
+      </div>
+
+      <div class="ad-slot horizontal" data-slot="below-tool"></div>
+    </div>
+
+    <aside class="sidebar">
+      <div class="ad-slot" data-slot="sidebar-1"></div>
+      <div class="card pro-card">
+        <h3>Passa a Pro <span class="pro-badge">A VITA</span></h3>
+        <ul>
+          <li>Immagini illimitate per batch</li>
+          <li>File fino a 50 MB</li>
+          <li>Scarica tutto come ZIP</li>
+          <li>Dimensione file obiettivo e nomi file personalizzati</li>
+        </ul>
+        <button class="btn btn-primary btn-block" data-action="pro" data-arg="sidebar">Passa a Pro – <span data-pro-price>$9</span> una tantum</button>
+      </div>
+      <div class="card lead-card" id="leadCard" hidden>
+        <h3>Siti più veloci, immagini più leggere</h3>
+        <p class="hint">Consigli sulle prestazioni web, guide ai formati di immagine e nuovi strumenti gratuiti. Niente spam.</p>
+        <form class="lead-form" data-action="newsletter">
+          <input type="email" name="email" required placeholder="tu@email.com" aria-label="Indirizzo email" autocomplete="email">
+          <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none" aria-hidden="true">
+          <button class="btn btn-primary" type="submit">Abbonati</button>
+        </form>
+        <p class="hint tiny">Niente spam. Annulli l'iscrizione quando vuoi.</p>
+      </div>
+      <div class="ad-slot" data-slot="sidebar-2"></div>
+    </aside>
+  </div>
+</main>
+
+<!-- uses:start -->
+<section class="uses container" id="popular-uses" aria-labelledby="usesTitle">
+  <h2 id="usesTitle">Modi più comuni di usare Squish</h2>
+  <ul class="uses-grid">
+      <li><a href="/it/compress-images-for-website">Comprimi immagini per il tuo sito web</a></li>
+      <li><a href="/it/compress-image-for-email-attachment">Comprimi un'immagine per l'email</a></li>
+      <li><a href="/it/compress-photos-for-instagram">Comprimi foto per Instagram senza perdere qualità</a></li>
+      <li><a href="/it/reduce-image-size-for-wordpress">Riduci le dimensioni delle immagini per WordPress</a></li>
+      <li><a href="/it/compress-png-online">Comprimi PNG online</a></li>
+      <li><a href="/it/convert-png-to-webp">Converti PNG in WebP</a></li>
+      <li><a href="/it/compress-images-for-shopify">Comprimi immagini per Shopify</a></li>
+      <li><a href="/it/resize-image-for-linkedin-profile">Ridimensiona un'immagine per la foto profilo di LinkedIn</a></li>
+  </ul>
+</section>
+<!-- uses:end -->
+
+<section class="content container">
+  <div class="features">
+    <div class="feature"><div class="ic">🔒</div><h3>Privato per natura</h3><p>Le immagini vengono compresse con la Canvas API del tuo browser. Nessun caricamento, nessun server, nessun tracciamento dei tuoi file.</p></div>
+    <div class="feature"><div class="ic">⚡</div><h3>In batch e veloce</h3><p>Trascina decine di foto insieme. Tre immagini vengono elaborate in parallelo con la CPU del tuo dispositivo.</p></div>
+    <div class="feature"><div class="ic">🔁</div><h3>Converti e ridimensiona</h3><p>Passa da JPEG a PNG a WebP e limita il lato più lungo a 1920 px (o a qualsiasi dimensione) in un solo passaggio.</p></div>
+    <div class="feature"><div class="ic">👀</div><h3>Cursore prima/dopo</h3><p>Confronta i pixel originali e compressi affiancati prima di scaricare qualsiasi cosa.</p></div>
+  </div>
+
+  <h2>Come comprimere un'immagine online con Squish</h2>
+  <ol>
+    <li><strong>Aggiungi le immagini.</strong> Trascina i file nell'area di rilascio, fai clic su "sfoglia i file" oppure incolla uno screenshot direttamente dagli appunti.</li>
+    <li><strong>Scegli le impostazioni.</strong> Lascia la qualità a 75 per un ottimo equilibrio, scegli un formato di output (o mantieni l'originale) e, se vuoi, ridimensiona le foto grandi a 1920 px.</li>
+    <li><strong>Controlla i risultati.</strong> Ogni file mostra il vecchio e il nuovo peso, la percentuale risparmiata e le dimensioni finali. Fai clic su una riga per aprire il cursore di confronto prima/dopo.</li>
+    <li><strong>Scarica.</strong> Salva i file uno per uno oppure premi "Scarica tutto". Gli utenti Pro possono scaricare tutto in un unico ZIP.</li>
+  </ol>
+
+  <h2>Perché comprimere le immagini?</h2>
+  <p>Le immagini sono la parte più pesante di quasi ogni pagina web, email e messaggio di chat. Una sola foto scattata con un telefono moderno pesa 3–6 MB ed è larga oltre 4000 pixel, molto più di quanto qualsiasi schermo possa mostrare. Comprimerla a 200–400 KB fa una differenza misurabile:</p>
+  <ul>
+    <li><strong>Velocità della pagina e Core Web Vitals.</strong> Il Largest Contentful Paint (LCP) è di solito un'immagine hero. Immagini più leggere si caricano prima, migliorano i segnali di ranking di Google e riducono la frequenza di rimbalzo, soprattutto sulle connessioni mobili.</li>
+    <li><strong>Limiti degli allegati email.</strong> Gmail e Outlook limitano gli allegati a 20–25 MB. Comprimere una dozzina di foto ti permette di inviarle in un solo messaggio invece che in cinque.</li>
+    <li><strong>Spazio di archiviazione e banda.</strong> File più leggeri significano hosting più economico, backup più veloci e più spazio sul telefono o nel cloud.</li>
+    <li><strong>Limiti di caricamento.</strong> Forum, plugin per CMS, marketplace e portali di lavoro spesso rifiutano file oltre 1–2 MB. Un'immagine compressa passa senza problemi.</li>
+  </ul>
+
+  <h2>JPEG, PNG o WebP: quale formato usare?</h2>
+  <h3>JPEG (JPG)</h3>
+  <p>La scelta universale per le fotografie e per tutto ciò che ha sfumature morbide. JPEG è con perdita: scarta dettagli che difficilmente l'occhio nota. Non supporta la trasparenza. Usalo quando la compatibilità conta di più (email, software vecchi, servizi di stampa).</p>
+  <h3>PNG</h3>
+  <p>Senza perdita e con supporto della trasparenza, il che lo rende ideale per loghi, icone, screenshot con testo e mockup di interfacce. Le foto in PNG però sono enormi, spesso 5–10× più pesanti della stessa immagine in JPEG. Se il tuo PNG è una foto, convertila in JPEG o WebP.</p>
+  <h3>WebP</h3>
+  <p>Il formato moderno di Google unisce il meglio dei due: con o senza perdita, con trasparenza e di solito più leggero del 25–35% rispetto a JPEG a parità di qualità visiva. Tutti i browser attuali supportano WebP, quindi è la scelta migliore per i siti web. Alcune app desktop e alcuni social network preferiscono ancora JPEG, quindi tienilo presente per i caricamenti altrove.</p>
+
+  <h2>Quale impostazione di qualità devo scegliere?</h2>
+  <p>Il cursore della qualità (10–100) controlla quanto aggressivamente JPEG e WebP scartano i dettagli. La qualità percepita non è lineare: passare da 100 a 85 dimezza circa il peso del file restando identica alla normale distanza di visione; scendere sotto 60 inizia a mostrare artefatti a blocchi sui bordi e nei cieli.</p>
+  <ul>
+    <li><strong>85–90:</strong> fotografie da portfolio, anteprime di stampa, immagini prodotto con zoom.</li>
+    <li><strong>75–85 (il punto ideale):</strong> articoli di blog, schede e-commerce, social media, email. È l'impostazione predefinita di Squish.</li>
+    <li><strong>60–70:</strong> miniature, immagini di sfondo, anteprime in cui la velocità conta più della fedeltà.</li>
+    <li><strong>Sotto 50:</strong> solo quando devi rispettare un limite di peso rigido. La modalità dimensione obiettivo di Pro trova automaticamente la qualità più alta che rientra nel limite.</li>
+  </ul>
+
+  <h2>Compressione senza perdita e con perdita</h2>
+  <p>La compressione <strong>senza perdita</strong> (PNG, WebP senza perdita) riorganizza i dati in modo più efficiente senza cambiare un solo pixel. Il risparmio è modesto, di solito il 5–30%, e deriva soprattutto dalla rimozione dei metadati e da una codifica migliore. La compressione <strong>con perdita</strong> (JPEG, WebP con perdita) approssima l'immagine e può ridurre i file del 70–90%. Per le foto, la compressione con perdita a qualità 75–85 è quasi sempre la scelta giusta; per le grafiche con bordi netti e colori piatti, resta su PNG senza perdita.</p>
+
+  <h2>Privacy: le tue immagini non lasciano mai il dispositivo</h2>
+  <p>La maggior parte dei compressori online carica i tuoi file su un server, li elabora lì e li conserva per ore o giorni. È un problema per le foto di famiglia, le scansioni di documenti, le immagini mediche, i lavori dei clienti e tutto ciò che è coperto da NDA. Squish è diverso: la compressione avviene interamente nel tuo browser tramite la Canvas API di HTML5. Nessun caricamento, nessun account e niente da eliminare dopo. In più, la ricodifica tramite canvas rimuove i metadati EXIF, comprese coordinate GPS, numeri di serie della fotocamera e data e ora, così le foto che condividi rivelano meno di te.</p>
+
+  <h2>Comprimere immagini per il web, Instagram ed email</h2>
+  <h3>Per siti web e blog</h3>
+  <p>Scegli WebP, qualità 75–80, e ridimensiona a 1920 px per le immagini hero a tutta larghezza o a 1200 px per le foto negli articoli. Punta a meno di 200 KB per immagine. Usa PNG solo per loghi e screenshot con testo.</p>
+  <h3>Per Instagram e i social media</h3>
+  <p>Instagram ricomprime tutto ciò che carichi, quindi dagli una sorgente pulita: JPEG a qualità 85, ridimensionato a 1080 px di larghezza (il preset 1080 px qui sopra). Caricare un file più piccolo e ben compresso evita l'aspetto impastato che la compressione di Instagram produce sugli originali enormi.</p>
+  <h3>Per email e messaggistica</h3>
+  <p>JPEG a qualità 70–75 con il lato più lungo a 1600 px basta per la visualizzazione su qualsiasi schermo e mantiene un album di 10 foto sotto i 3 MB totali. I destinatari vedono immagini nitide e il messaggio non viene respinto per il peso.</p>
+
+  <h2>Domande frequenti</h2>
+  <div class="faq">
+    <details>
+      <summary>Squish è davvero gratis?</summary>
+      <p>Sì. Comprimere, ridimensionare e convertire immagini è completamente gratuito, senza registrazione e senza filigrana. Puoi elaborare gratis fino a 10 immagini (10 MB ciascuna) per batch. Squish Pro è un upgrade opzionale una tantum che aggiunge batch illimitati, file da 50 MB, download ZIP, modalità dimensione obiettivo e nomi file personalizzati.</p>
+    </details>
+    <details>
+      <summary>Le mie immagini vengono caricate su un server?</summary>
+      <p>No. Squish comprime le immagini interamente nel tuo browser tramite la Canvas API. I tuoi file non lasciano mai il dispositivo, non viene salvato nulla e lo strumento funziona anche offline una volta caricata la pagina.</p>
+    </details>
+    <details>
+      <summary>Quali formati di immagine sono supportati?</summary>
+      <p>Puoi comprimere JPG/JPEG, PNG e WebP e convertire tra questi formati. I file GIF, BMP e SVG possono essere aperti e ricodificati in PNG, JPEG o WebP. Le foto HEIC/HEIF degli iPhone non sono supportate dai browser, quindi esportale prima in JPEG.</p>
+    </details>
+    <details>
+      <summary>La compressione riduce la qualità dell'immagine?</summary>
+      <p>La compressione JPEG e WebP è con perdita, ma alla qualità predefinita di 75 la differenza è praticamente invisibile mentre il file è di solito più leggero del 60–80%. L'output PNG è senza perdita, quindi i pixel restano identici. Usa il cursore prima/dopo per controllare qualsiasi immagine prima di scaricarla.</p>
+    </details>
+    <details>
+      <summary>Qual è il peso massimo dei file?</summary>
+      <p>Gli utenti gratuiti possono comprimere immagini fino a 10 MB ciascuna. Squish Pro alza il limite a 50 MB per file. Poiché l'elaborazione avviene sul tuo dispositivo, le immagini molto grandi dipendono anche dalla memoria disponibile nel browser.</p>
+    </details>
+    <details>
+      <summary>Posso comprimere molte immagini insieme?</summary>
+      <p>Sì. Trascina un'intera cartella di immagini o seleziona più file. Squish elabora tre immagini in parallelo e mostra un riepilogo dello spazio totale risparmiato. I batch gratuiti sono limitati a 10 immagini; Pro elimina il limite e ti permette di scaricare tutto in un unico ZIP.</p>
+    </details>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <span class="brand-mark lg" aria-hidden="true"></span>
+      <div>
+        <strong>Be Management Tools</strong>
+        <p>Una raccolta di strumenti gratuiti e privati che funzionano interamente nel tuo browser. Squish è il compressore di immagini della famiglia, creato e gestito da Be Management.</p>
+      </div>
+    </div>
+    <div class="footer-tools">
+      <strong>Altri strumenti gratuiti</strong>
+      <ul>
+        <li><a href="https://quickinvoice-tool.vercel.app">QuickInvoice · Fatture</a></li>
+        <li><a href="https://ratecalc-tool.vercel.app">RateCalc · Tariffe freelance</a></li>
+        <li><a href="https://qrforge-tool.vercel.app">QRForge · Codici QR</a></li>
+        <li><a href="https://squish-tool.vercel.app" class="current">Squish · Compressore di immagini</a></li>
+        <li><a href="https://growthcalc-tool.vercel.app">GrowthCalc · Interesse composto</a></li>
+        <li><a href="https://subnetkit-tool.vercel.app">SubnetKit · Subnet IP</a></li>
+        <li><a href="https://shotstudio-tool.vercel.app">Screenshot Studio · Mockup di screenshot</a></li>
+        <li><a href="https://mockuplab-tool.vercel.app">Social Mockup Lab · Mockup di chat e post</a></li>
+        <li><a href="https://carouselmaker-tool.vercel.app">Carousel Maker · Slide per caroselli</a></li>
+        <li><a href="https://creativeresize-tool.vercel.app">Creative Resize · Formati social</a></li>
+        <li><a href="https://framelab-tool.vercel.app">Frame Lab · Cornici e mockup per foto</a></li>
+        <li><a href="https://giveaway-tool.vercel.app">Giveaway Picker · Giveaway su Instagram</a></li>
+        <li><a href="https://iplookup-tool.vercel.app">IP Lookup · Ricerca IP</a></li>
+        <li><a href="https://sizeconverter-tool.vercel.app">Size Converter · Ridimensiona immagini e video</a></li>
+      </ul>
+    </div>
+    <div class="footer-meta">
+      <span>© <span data-year></span> Be Management · Squish. Le immagini non lasciano mai il tuo dispositivo.</span>
+      <span><a href="/it/privacy" data-i18n-href="/it/privacy">Privacy</a> · <a href="/it/terms" data-i18n-href="/it/terms">Termini</a> · <a href="#" data-action="cookie-settings">Impostazioni cookie</a> · <a href="https://www.bemanagement.pro" rel="noopener">bemanagement.pro</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- Before/after compare modal -->
+<div class="modal compare-modal" id="compareModal" role="dialog" aria-modal="true" aria-labelledby="compareTitle">
+  <div class="card">
+    <button class="btn btn-sm close" id="compareClose" aria-label="Chiudi il confronto">✕</button>
+    <h3 id="compareTitle">Prima / dopo</h3>
+    <div class="compare-meta" id="compareMeta"></div>
+    <div class="compare-stage" id="compareStage">
+      <img id="compareOriginal" alt="Immagine originale">
+      <img id="compareCompressed" alt="Immagine compressa">
+      <div class="compare-handle" id="compareHandle" aria-hidden="true"></div>
+      <span class="compare-label left">Originale</span>
+      <span class="compare-label right">Compressa</span>
+    </div>
+    <label for="compareSlider" class="sr-only">Mostra compressa e originale</label>
+    <input type="range" id="compareSlider" min="0" max="100" value="50" step="0.5">
+  </div>
+</div>
+
+<!-- Pro modal -->
+<div class="modal" id="proModal" role="dialog" aria-modal="true">
+  <div class="card">
+    <button class="btn btn-sm close" data-action="close-pro">✕</button>
+    <h3>Passa a Squish Pro <span class="pro-badge">A VITA</span></h3>
+    <div class="price"><span id="proPrice"></span> <small>una tantum</small></div>
+    <ul>
+      <li>Dimensione del batch illimitata</li>
+      <li>50 MB per file</li>
+      <li>Scarica come ZIP</li>
+      <li>Modalità dimensione file obiettivo</li>
+      <li>Nomi file personalizzati</li>
+      <li>Aggiornamenti a vita</li>
+    </ul>
+    <button class="btn btn-primary btn-block" data-action="checkout">Passa a Pro</button>
+    <p class="hint" style="margin-top:12px">Hai già acquistato? <a href="#" data-action="toggle-license">Inserisci la chiave di licenza</a></p>
+    <div class="row hidden" id="licenseRow"><input id="licenseKey" placeholder="Chiave di licenza"><button class="btn" data-action="activate-license">Attiva</button></div>
+  </div>
+</div>
+<script src="/app.js"></script>
+</body>
+</html>

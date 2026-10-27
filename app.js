@@ -55,10 +55,12 @@
     try {
       const raw = localStorage.getItem(LS_KEY);
       if (!raw) return Object.assign({}, DEFAULTS);
-      const saved = JSON.parse(raw);
-      const s = Object.assign({}, DEFAULTS, saved);
+      // Reviver drops prototype-polluting keys; only plain objects are merged.
+      const saved = JSON.parse(raw, (k, v) => (k === '__proto__' || k === 'constructor' || k === 'prototype') ? undefined : v);
+      const s = Object.assign({}, DEFAULTS, saved && typeof saved === 'object' && !Array.isArray(saved) ? saved : {});
       s.quality = clamp(parseInt(s.quality, 10) || DEFAULTS.quality, 10, 100);
-      s.maxDim = parseInt(s.maxDim, 10) || 0;
+      s.maxDim = clamp(parseInt(s.maxDim, 10) || 0, 0, 20000);
+      s.pattern = typeof s.pattern === 'string' ? s.pattern.slice(0, 120) : DEFAULTS.pattern;
       s.targetKB = clamp(parseInt(s.targetKB, 10) || DEFAULTS.targetKB, 5, 50000);
       if (!['keep', 'image/jpeg', 'image/png', 'image/webp'].includes(s.format)) s.format = 'keep';
       return s;
@@ -110,7 +112,8 @@
     return String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   }
   function baseName(name) { return (name || 'image').replace(/\.[^.]+$/, '') || 'image'; }
-  function extOf(name) { const m = /\.([^.]+)$/.exec(name || ''); return m ? m[1].toLowerCase() : ''; }
+  // Extension is restricted to [a-z0-9] so it is safe in filenames and in the RegExp built in outputName().
+  function extOf(name) { const m = /\.([a-z0-9]{1,8})$/i.exec(name || ''); return m ? m[1].toLowerCase() : ''; }
   function fitDims(w, h, maxDim) {
     if (!maxDim || (w <= maxDim && h <= maxDim)) return { w, h };
     const r = Math.min(maxDim / w, maxDim / h);
@@ -387,7 +390,7 @@
     const canCompare = it.status === 'done' || it.status === 'kept';
     li.innerHTML =
       '<button type="button" class="thumb-btn" data-action="compare" ' + (canCompare ? '' : 'disabled ') + 'aria-label="Compare before and after for ' + esc(it.name) + '">' +
-        '<img class="thumb" src="' + thumbSrc + '" alt="" loading="lazy" decoding="async">' +
+        '<img class="thumb" src="' + esc(/^(blob:|data:image\/)/i.test(String(thumbSrc || '')) ? thumbSrc : '') + '" alt="" loading="lazy" decoding="async">' +
       '</button>' +
       '<div class="r-main" data-action="compare">' +
         '<div class="r-name" title="' + esc(it.name) + '">' + esc(it.name) + '</div>' + body +
@@ -462,13 +465,14 @@
     let pattern = isPro() ? (settings.pattern || DEFAULTS.pattern) : FREE_PATTERN;
     if (!/\{name\}/.test(pattern) && !/\{index\}/.test(pattern)) pattern = '{name}-' + pattern;
     let n = pattern
-      .replace(/\{name\}/g, base)
-      .replace(/\{ext\}/g, ext)
+      .replace(/\{name\}/g, () => base)
+      .replace(/\{ext\}/g, () => ext)
       .replace(/\{index\}/g, String((index || 0) + 1).padStart(2, '0'))
       .replace(/\{w\}/g, it.outW || '')
       .replace(/\{h\}/g, it.outH || '')
-      .replace(/[\\/:*?"<>|\u0000-\u001f]/g, '_')
-      .trim();
+      .replace(/[\\/:*?"<>|\u0000-\u001f\u007f]/g, '_')
+      .trim()
+      .slice(0, 200);
     if (!n) n = base + '.' + ext;
     if (!new RegExp('\\.' + ext + '$', 'i').test(n)) n += '.' + ext;
     return n;
@@ -715,7 +719,7 @@
     });
     el.filenamePattern.addEventListener('click', () => { if (!isPro()) openPro('filenames'); });
     el.filenamePattern.addEventListener('keydown', (e) => { if (!isPro() && e.key !== 'Tab') { e.preventDefault(); openPro('filenames'); } });
-    el.filenamePattern.addEventListener('input', () => { if (!isPro()) return; settings.pattern = el.filenamePattern.value.trim() || DEFAULTS.pattern; saveSettings(); });
+    el.filenamePattern.addEventListener('input', () => { if (!isPro()) return; settings.pattern = el.filenamePattern.value.trim().slice(0, 120) || DEFAULTS.pattern; saveSettings(); });
     el.resetSettingsBtn.addEventListener('click', () => {
       settings = Object.assign({}, DEFAULTS); saveSettings(); applySettingsToUI(); refreshUI(); toast('Settings reset'); scheduleRerun();
     });
