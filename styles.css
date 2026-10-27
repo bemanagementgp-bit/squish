@@ -254,6 +254,7 @@ td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
 
 
 
+
 /* ===== Squish – app specific ===== */
 .tool-main{display:flex;flex-direction:column;gap:20px;min-width:0}
 .card-title{font-size:1.1rem;margin:0 0 14px}
