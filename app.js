@@ -590,40 +590,27 @@
   }
 
   // ---- Sample image (generated locally, no network) ----
+  // Generic sample: a neutral "photo" placeholder — no text, brands or scenes, so the tool is what people look at.
+  function paintPlaceholder(x, w, h) {
+    const g = x.createLinearGradient(0, 0, 0, h); g.addColorStop(0, '#dcdde1'); g.addColorStop(1, '#c4c6cd');
+    x.fillStyle = g; x.fillRect(0, 0, w, h);
+    const s = Math.min(w, h) * 0.34, fw = s * 1.3, fh = s, fx = (w - fw) / 2, fy = (h - fh) / 2, r = s * 0.1;
+    x.beginPath(); x.moveTo(fx + r, fy); x.arcTo(fx + fw, fy, fx + fw, fy + fh, r); x.arcTo(fx + fw, fy + fh, fx, fy + fh, r);
+    x.arcTo(fx, fy + fh, fx, fy, r); x.arcTo(fx, fy, fx + fw, fy, r); x.closePath();
+    x.strokeStyle = '#a4a7b1'; x.lineWidth = Math.max(4, s * 0.035); x.lineJoin = 'round'; x.stroke();
+    x.save(); x.clip();
+    x.fillStyle = '#b5b8c0'; x.beginPath(); x.arc(fx + fw * 0.7, fy + fh * 0.32, s * 0.11, 0, Math.PI * 2); x.fill();
+    x.fillStyle = '#a4a7b1'; x.beginPath(); x.moveTo(fx, fy + fh); x.lineTo(fx + fw * 0.34, fy + fh * 0.46); x.lineTo(fx + fw * 0.58, fy + fh * 0.76);
+    x.lineTo(fx + fw * 0.74, fy + fh * 0.6); x.lineTo(fx + fw, fy + fh * 0.88); x.lineTo(fx + fw, fy + fh); x.closePath(); x.fill();
+    x.restore();
+  }
   async function makeSample() {
     const w = 2400, h = 1600;
     const c = document.createElement('canvas');
     c.width = w; c.height = h;
     const ctx = c.getContext('2d');
-    const sky = ctx.createLinearGradient(0, 0, 0, h);
-    sky.addColorStop(0, '#1e3a8a'); sky.addColorStop(0.55, '#f472b6'); sky.addColorStop(1, '#fbbf24');
-    ctx.fillStyle = sky; ctx.fillRect(0, 0, w, h);
-    // sun
-    const sun = ctx.createRadialGradient(w * 0.7, h * 0.48, 10, w * 0.7, h * 0.48, 260);
-    sun.addColorStop(0, '#fff7ed'); sun.addColorStop(0.4, '#fde68a'); sun.addColorStop(1, 'rgba(253,230,138,0)');
-    ctx.fillStyle = sun; ctx.fillRect(0, 0, w, h);
-    // mountains
-    const layers = [['#312e81', 0.55, 180], ['#4c1d95', 0.66, 140], ['#1e1b4b', 0.78, 100]];
-    layers.forEach(([color, base, amp], li) => {
-      ctx.fillStyle = color; ctx.beginPath(); ctx.moveTo(0, h);
-      for (let x = 0; x <= w; x += 20) {
-        const y = h * base - Math.abs(Math.sin(x / (260 - li * 60) + li)) * amp - Math.sin(x / 37) * 18;
-        ctx.lineTo(x, y);
-      }
-      ctx.lineTo(w, h); ctx.closePath(); ctx.fill();
-    });
-    // water reflection stripes
-    for (let y = h * 0.8; y < h; y += 6) {
-      ctx.fillStyle = 'rgba(255,255,255,' + (0.03 + Math.random() * 0.08) + ')';
-      ctx.fillRect(0, y, w, 2);
-    }
-    // text
-    ctx.fillStyle = 'rgba(255,255,255,.92)';
-    ctx.font = '700 110px system-ui, sans-serif';
-    ctx.fillText('Squish sample', 120, 220);
-    ctx.font = '400 54px system-ui, sans-serif';
-    ctx.fillText('2400 × 1600 · generated in your browser', 124, 300);
-    // film grain so the original is realistically heavy
+    paintPlaceholder(ctx, w, h);
+    // fine grain so the original is as heavy as a real photo (shows what compression saves)
     const img = ctx.getImageData(0, 0, w, h);
     const d = img.data;
     for (let i = 0; i < d.length; i += 4) {
@@ -632,7 +619,7 @@
     }
     ctx.putImageData(img, 0, 0);
     const blob = await toBlob(c, 'image/jpeg', 0.98);
-    return new File([blob], 'sample-sunset.jpg', { type: 'image/jpeg' });
+    return new File([blob], 'sample.jpg', { type: 'image/jpeg' });
   }
 
   // ---- Pro UI ----
